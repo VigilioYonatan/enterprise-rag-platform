@@ -1,0 +1,3 @@
+# Enterprise RAG — agent governance
+
+Antes de modificar: leer `.opencode/skills/enterprise-rag-senior-2026/SKILL.md`, sus referencias relevantes, skills Vigilio instaladas, `docs/IMPLEMENTATION_STATUS.md`, contratos/SQL/CI del área afectada. Aplicar `senior-completeness-auditor` proporcionada por usuario (documentada en `docs/SENIOR_COMPLETENESS.md`); sin falsos PASS. Cinco repos Git lógicos; no crear paquetes/contracts externos. No AWS. JWT de Keycloak, zero trust, PostgreSQL ACL/RLS, sin bypass. No dejar credenciales en Git. Para cambios API actualizar docs/contratos/tests. En desacuerdo con canon faltante marcar BLOCKED.

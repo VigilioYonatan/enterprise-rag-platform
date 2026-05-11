@@ -1,0 +1,16 @@
+title = "Enterprise RAG Zero-Secrets Gitleaks Policy"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Documented non-secret placeholders in example env and test fixtures"
+paths = [
+  '''\.env\.example$''',
+  '''realm-enterprise(\.production\.example)?\.json$''',
+  '''test/.*\.(ts|tsx|sql)$'''
+]
+regexes = [
+  '''CHANGE_ME_[A-Z0-9_]+''',
+  '''local_dev_only_[a-z0-9_]+'''
+]
