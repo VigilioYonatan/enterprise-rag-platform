@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "description": "Path redirects from v1 (legacy flat folders) to v2 (multistack canonical hierarchy)",
+  "mappings": {
+    "backend-node-nest/(.*)": "stacks/backend/nestjs/$1",
+    "frontend-mobile-mfe/(.*)": "stacks/frontend/mobile/$1",
+    "frontend-web-mfe/(.*)": "stacks/frontend/web-mfe/$1"
+  }
+}

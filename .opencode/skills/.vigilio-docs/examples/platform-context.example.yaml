@@ -1,0 +1,30 @@
+schemaVersion: 1
+
+project:
+  name: ecommerce
+  type: platform
+
+repositories:
+  application: apps
+  infrastructure: infra
+  gitops: deploy
+  images: docker
+
+environments:
+  - local
+  - development
+  - staging
+  - production
+
+delivery:
+  provider: gitlab
+  gitopsEngine: argocd
+  containerRegistry: registry.example.com
+
+infrastructure:
+  provider: onprem
+  kubernetesDistribution: rke2
+
+labs:
+  standard: prod-local
+  runtimeSecurity: labs/runtime-security

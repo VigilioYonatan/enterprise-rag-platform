@@ -1,0 +1,14 @@
+config_version=5
+
+[application]
+config/name="Vigilio Godot 2D Jump Audio Golden Path"
+run/main_scene="res://scenes/world.tscn"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=540

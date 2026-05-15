@@ -1,0 +1,12 @@
+{
+  "version": "6",
+  "audit_type": "source_integrity",
+  "status": "PASS",
+  "verified_repositories": [
+    "apps/enterprise-rag-impl",
+    "apps/enterprise-rag-web",
+    "enterprise-rag-deploy",
+    "platform-ops",
+    "prod-local"
+  ]
+}

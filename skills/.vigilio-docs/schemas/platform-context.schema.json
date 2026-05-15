@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://docs.vigilio.example/schemas/platform-context.schema.json",
+  "title": "VIGILIO Platform Context",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "project", "repositories", "environments"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "topologyTier": {
+      "enum": ["compose-vps", "k8s-gitops-selfhosted", "cloud-aws-gitops"]
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "type"],
+      "properties": {
+        "name": { "$ref": "#/$defs/name" },
+        "type": { "enum": ["application", "platform", "service", "workspace"] }
+      }
+    },
+    "repositories": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["application", "infrastructure", "gitops", "images"],
+      "properties": {
+        "application": { "$ref": "#/$defs/relativePath" },
+        "infrastructure": { "$ref": "#/$defs/relativePath" },
+        "gitops": { "$ref": "#/$defs/relativePath" },
+        "images": { "$ref": "#/$defs/relativePath" }
+      }
+    },
+    "environments": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/name" }
+    },
+    "delivery": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": { "enum": ["github", "gitlab", "azure-devops", "other"] },
+        "gitopsEngine": { "enum": ["argocd", "flux", "none"] },
+        "containerRegistry": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9.-]+(?::[0-9]{2,5})?$"
+        }
+      }
+    },
+    "infrastructure": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": { "enum": ["aws", "azure", "gcp", "onprem", "vps", "cloud-neutral", "hybrid"] },
+        "orchestrator": { "enum": ["compose", "kubernetes", "serverless"] },
+        "kubernetesDistribution": { "$ref": "#/$defs/name" }
+      }
+    },
+    "labs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "standard": { "$ref": "#/$defs/relativePath" },
+        "runtimeSecurity": { "$ref": "#/$defs/relativePath" }
+      }
+    }
+  },
+  "$defs": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?![A-Za-z]:)(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+$"
+    }
+  }
+}

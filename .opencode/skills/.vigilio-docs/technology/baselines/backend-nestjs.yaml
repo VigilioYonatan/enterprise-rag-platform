@@ -1,0 +1,18 @@
+schema_version: 1
+stack: backend-nestjs
+status: proposed_upgrade_not_applied
+verified_at: '2026-11-01'
+runtime:
+  node_lts_candidate: '24.22.2'
+framework:
+  nestjs_candidate: '12.2.0'
+contracts:
+  zod: '^4'
+  output_runtime_validation: risk_based_opt_in
+compatibility_source: ../../compatibility.json
+gates:
+  lockfile_and_consumers: required
+  swagger_scalar_compatibility: required
+  otel_instrumentation: required
+  test_and_release_evidence: required
+note: El snapshot real actual de COMPATIBILITY.md no se reemplaza aquí.

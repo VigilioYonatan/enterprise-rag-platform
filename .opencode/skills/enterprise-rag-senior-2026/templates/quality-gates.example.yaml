@@ -1,0 +1,13 @@
+gates:
+  - name: biome_check
+    command: pnpm check
+    severity: blocker
+  - name: typecheck
+    command: pnpm typecheck
+    severity: blocker
+  - name: vitest
+    command: pnpm test
+    severity: blocker
+  - name: openapi_drift
+    command: pnpm openapi:diff
+    severity: blocker

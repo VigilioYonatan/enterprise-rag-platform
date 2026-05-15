@@ -1,0 +1,57 @@
+{
+  "governance-platform": {
+    "team": "Architecture & Governance",
+    "lead": "Staff Architect"
+  },
+  "backend-platform": {
+    "team": "Backend Platform",
+    "stacks": [
+      "nestjs",
+      "laravel"
+    ]
+  },
+  "frontend-platform": {
+    "team": "Frontend Platform",
+    "stacks": [
+      "preact",
+      "react",
+      "vite"
+    ]
+  },
+  "mobile-platform": {
+    "team": "Mobile Platform",
+    "stacks": [
+      "react-native",
+      "expo"
+    ]
+  },
+  "systems-platform": {
+    "team": "Systems Engineering",
+    "stacks": [
+      "rust",
+      "cpp",
+      "qt"
+    ]
+  },
+  "game-platform": {
+    "team": "Game Platform",
+    "stacks": [
+      "godot"
+    ]
+  },
+  "ai-platform": {
+    "team": "AI / LLMOps Platform",
+    "stacks": [
+      "bedrock",
+      "rag"
+    ]
+  },
+  "design-platform": {
+    "team": "Product Design Platform",
+    "stacks": [
+      "tokens",
+      "ux",
+      "ui"
+    ]
+  }
+}

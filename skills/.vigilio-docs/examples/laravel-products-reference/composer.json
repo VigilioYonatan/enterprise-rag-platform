@@ -1,0 +1,15 @@
+{
+  "name": "vigilio/docs-laravel-products-reference",
+  "description": "Illustrative module, not a runnable Laravel application",
+  "type": "library",
+  "license": "UNLICENSED",
+  "require": {
+    "php": "^8.5",
+    "laravel/framework": "^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vigilio\\Reference\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# SOLO MODELO DE POLITICA: necesita implementación transaccional en la app.
+example_only: true
+currency: USD
+per_tenant:
+  monthly_budget_usd: 50.00  # EJEMPLO, no una recomendación universal
+  warn_at_percent: [50, 80, 95]
+  hard_stop_at_percent: 100
+per_request:
+  max_input_tokens: 12000   # EJEMPLO: ajustar por caso/modelo
+  max_output_tokens: 1500   # EJEMPLO: ajustar por caso/modelo
+  timeout_seconds: 30
+  max_retries: 2
+  max_tool_calls: 3
+controls:
+  atomic_budget_reservation: true
+  enforce_before_model_call: true
+  refund_unused_reservation: true
+  track_billed_and_estimated_separately: true
+  version_model_prices: true
+  avoid_cached_token_double_count: true
+  do_not_cross_tenant_cache: true
+local_inference:
+  include_gpu_cpu_electricity_storage_amortization: true

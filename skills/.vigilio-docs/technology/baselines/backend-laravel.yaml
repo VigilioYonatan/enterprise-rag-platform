@@ -1,0 +1,36 @@
+schema_version: 1
+stack: backend-laravel
+status: proposed
+verified_at: '2026-11-01'
+runtime:
+  php:
+    preferred: '8.5.12'
+    fallback_reviewed: '8.4.27'
+    selection_gate: composer_resolution_and_extensions_verified
+framework:
+  laravel:
+    series: '^13.0'
+    observed_stable: '13.39.0'
+quality:
+  pest: '^5.0'
+  pest_plugin_laravel: '^5.0'
+  phpunit: composer_resolved_for_pest
+  phpstan: '^2.0'
+  larastan: '^3.0'
+  pint: '^1.0'
+contracts:
+  source: zod_to_openapi
+  documentation: scalar
+  response_runtime_validation: risk_based_opt_in
+optional:
+  sanctum: '^4.0'
+  horizon: '^5.0 (redis queues only)'
+  reverb: '^1.0'
+gates:
+  composer_lock: required
+  dependency_security_audit: required
+  php_extensions_compatibility: required
+  postgresql_integration: required
+  openapi_contract_diff: required
+  production_runtime_evidence: required
+note: No se ha ejecutado composer install ni aprobado para un consumidor.
