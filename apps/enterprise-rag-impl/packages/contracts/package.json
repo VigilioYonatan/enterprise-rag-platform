@@ -1,0 +1,36 @@
+{
+  "name": "@enterprise-rag/contracts",
+  "version": "0.1.0-beta",
+  "description": "Browser-safe Zod schemas and inferred HTTP contract types owned by enterprise-rag-impl.",
+  "type": "module",
+  "private": false,
+  "sideEffects": false,
+  "main": "./dist/src/contracts.js",
+  "types": "./dist/src/contracts.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/contracts.d.ts",
+      "import": "./dist/src/contracts.js",
+      "default": "./dist/src/contracts.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "pnpm clean && tsc -p tsconfig.build.json && node ../../scripts/fix-esm-imports.cjs",
+    "dev": "pnpm build && tsc -p tsconfig.build.json --watch --preserveWatchOutput",
+    "typecheck": "tsc -p tsconfig.build.json --noEmit",
+    "prepack": "pnpm build"
+  },
+  "peerDependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "zod": "4.6.7"
+  }
+}
