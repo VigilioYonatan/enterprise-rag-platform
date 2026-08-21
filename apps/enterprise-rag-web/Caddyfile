@@ -1,0 +1,33 @@
+{
+  admin off
+  auto_https off
+}
+
+:8080 {
+  root * /srv
+  encode zstd gzip
+
+  @runtime_config path /config.js
+  handle @runtime_config {
+    header Content-Type "application/javascript; charset=utf-8"
+    header Cache-Control "no-store, max-age=0"
+    respond `window.__APP_CONFIG__ = { apiBase: "{$RUNTIME_API_BASE:/api/v1}", oidcAuthority: "{$RUNTIME_OIDC_AUTHORITY:http://localhost:8081/realms/enterprise}", oidcClientId: "{$RUNTIME_OIDC_CLIENT_ID:enterprise-rag-web}", googleEnabled: "{$RUNTIME_GOOGLE_ENABLED:false}", facebookEnabled: "{$RUNTIME_FACEBOOK_ENABLED:false}" };` 200
+  }
+
+  @immutable_assets path /assets/*
+  header @immutable_assets Cache-Control "public, max-age=31536000, immutable"
+
+  @html_entry path / /index.html
+  header @html_entry Cache-Control "no-store, max-age=0"
+
+  try_files {path} /index.html
+  file_server
+
+  header X-Content-Type-Options "nosniff"
+  header Referrer-Policy "strict-origin-when-cross-origin"
+  header X-Frame-Options "DENY"
+  header Cross-Origin-Opener-Policy "same-origin"
+  header Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+  header Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' {$CSP_CONNECT_ORIGIN:http://localhost:8081}; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+  header -Server
+}

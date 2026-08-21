@@ -1,0 +1,80 @@
+# Vigilio Level 1 (compose-vps) Deterministic Tool, Package & Runtime Catalog
+# Governance: aligned with vigilio-docs/technology/versions.md (2026-10-25) and actual lockfiles/images.
+# Never treat reference candidates as installed versions without lockfile + runtime verification.
+schema_version: "1.1"
+updated_at: "2026-11-07"
+vigilio_docs_reference_date: "2026-10-25"
+platform_profile: "compose-vps"
+orchestrator_primary: "podman-compose"
+orchestrator_fallback: "docker-compose"
+
+# 1. Host & Build Runtimes (verified via node -v, pnpm -v, and Dockerfiles)
+runtimes:
+  nodejs_host_verified: "24.22.0"
+  nodejs_vigilio_lts_reference: "24.22.1"
+  nodejs_builder_image: "node:24-bookworm-slim"
+  nodejs_distroless_image: "gcr.io/distroless/nodejs24-debian13:nonroot"
+  pnpm_locked: "12.14.0"
+  typescript_locked: "6.0.3"
+  biome_locked: "2.6.3"
+
+# 2. Application Packages Resolved in pnpm-lock.yaml (never claim NestJS 12 / Vitest 5 without migration gate)
+packages_locked:
+  nestjs_core: "11.1.6"
+  nestjs_swagger: "11.2.0"
+  nestjs_zod: "5.5.0"
+  scalar_nestjs_api_reference: "1.2.35"
+  zod: "4.6.7"
+  drizzle_orm: "0.45.4"
+  pg: "8.16.3"
+  bullmq: "5.58.5"
+  pino: "10.4.0"
+  react: "19.2.0"
+  tanstack_react_query: "5.90.5"
+  react_hook_form: "7.65.0"
+  tailwindcss: "4.3.5"
+  vite: "8.3.5"
+  vitest: "4.1.10"
+  playwright_test: "1.64.1"
+  cucumber: "11.3.0"
+
+# 3. Container Data Plane (exact images declared in enterprise-rag-deploy/compose/compose.yaml)
+data_plane:
+  postgresql_image: "pgvector/pgvector:0.8.6-pg17"
+  postgresql_server_verified: "17.11"
+  pgvector_extension_verified: "0.8.6"
+  valkey_image: "valkey/valkey:8.1.11-alpine"
+  rustfs_image: "rustfs/rustfs:1.0.0-alpha.82"
+  keycloak_image: "quay.io/keycloak/keycloak:26.5"
+  clamav_image: "clamav/clamav:1.4"
+  caddy_image: "caddy:2-alpine"
+
+# 4. Observability Profile Images (exact images declared in enterprise-rag-deploy/compose/compose.yaml)
+observability:
+  opentelemetry_collector: "otel/opentelemetry-collector-contrib:0.128.0"
+  prometheus: "prom/prometheus:v3.1.0"
+  alertmanager: "prom/alertmanager:v0.28.1"
+  loki: "grafana/loki:3.4.2"
+  alloy: "grafana/alloy:v1.7.5"
+  tempo: "grafana/tempo:2.7.2"
+  grafana: "grafana/grafana:11.4.0"
+
+# 5. AI Inference Models & Digests (per vigilio-docs/technology/libraries/qwen3-embedding.md & qwen3-reranker.md)
+ai_models:
+  ollama_compose_image: "ollama/ollama:0.12.10"
+  embedding:
+    model_id: "qwen3-embedding:0.6b"
+    dimensions: 1024
+    quantization: "Q8_0"
+    ollama_endpoint: "POST /api/embed"
+    verified_digest: "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d"
+  generator:
+    model_id: "qwen2.5:3b"
+    quantization: "Q4_K_M"
+    ollama_endpoint: "POST /api/generate"
+    verified_digest: "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b"
+  reranker_optional_sidecar:
+    model_id: "Qwen/Qwen3-Reranker-0.6B"
+    runtime: "sentence-transformers CrossEncoder sidecar (NOT an Ollama /api/rerank endpoint)"
+    enabled_by_default: false
+    status_in_local_lab: "NOT_RUN (disabled; pre-authorized SQL RRF fallback active)"

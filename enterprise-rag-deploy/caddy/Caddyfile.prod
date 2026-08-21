@@ -1,0 +1,39 @@
+# Production: app and OIDC authentication on separate HTTPS DNS names.
+# Rootless Podman binds 8080/8443 inside container (host firewall / nftables / pasta maps 80->8080, 443->8443).
+{
+  admin off
+  http_port 8080
+  https_port 8443
+}
+
+{$SITE_ADDRESS} {
+  encode zstd gzip
+
+  @api path /api/*
+  handle @api {
+    reverse_proxy api:3000
+  }
+
+  handle {
+    reverse_proxy web:8080
+  }
+
+  header X-Content-Type-Options "nosniff"
+  header Referrer-Policy "strict-origin-when-cross-origin"
+  header X-Frame-Options "DENY"
+  header Cross-Origin-Opener-Policy "same-origin"
+  header Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+  header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  header Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://{$AUTH_SITE_ADDRESS}; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+  header -Server
+}
+
+{$AUTH_SITE_ADDRESS} {
+  encode zstd gzip
+  reverse_proxy keycloak:8080
+  header X-Content-Type-Options "nosniff"
+  header Referrer-Policy "strict-origin-when-cross-origin"
+  header X-Frame-Options "DENY"
+  header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+  header -Server
+}

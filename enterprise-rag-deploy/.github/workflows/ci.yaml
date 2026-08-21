@@ -1,0 +1,44 @@
+name: Deploy & Compose Security Gate
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compose-and-observability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Validate shell scripts syntax
+        run: |
+          sh -n scripts/build-sign-release.sh
+          sh -n scripts/release-verify.sh
+          sh -n scripts/rollout.sh
+          sh -n scripts/start-local.sh
+      - name: Validate Compose YAML & zero public data-plane ports
+        run: |
+          cp .env.example .env
+          docker compose --env-file .env -f compose/compose.yaml config > /tmp/rendered-compose.yaml
+          grep -q "internal: true" /tmp/rendered-compose.yaml
+          if grep -E "minio/minio|minio/mc" compose/compose.yaml; then
+            echo "Forbidden legacy MinIO image in compose.yaml" >&2
+            exit 1
+          fi
+      - name: Validate Keycloak production realm template has zero dev SMTP placeholders
+        run: |
+          python3 -m json.tool keycloak/realm-enterprise.json > /dev/null
+          python3 -m json.tool keycloak/realm-enterprise.production.example.json > /dev/null
+          if grep -Eq "mailpit|atlas\.local" keycloak/realm-enterprise.production.example.json; then
+            echo "Development mailpit/atlas.local leaked into production realm template" >&2
+            exit 1
+          fi

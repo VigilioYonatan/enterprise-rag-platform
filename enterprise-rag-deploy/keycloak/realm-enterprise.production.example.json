@@ -1,0 +1,57 @@
+{
+  "realm": "enterprise",
+  "enabled": true,
+  "displayName": "Atlas Knowledge",
+  "registrationAllowed": false,
+  "registrationEmailAsUsername": true,
+  "resetPasswordAllowed": true,
+  "verifyEmail": true,
+  "bruteForceProtected": true,
+  "failureFactor": 5,
+  "waitIncrementSeconds": 60,
+  "maxFailureWaitSeconds": 900,
+  "passwordPolicy": "length(12) and digits(1) and upperCase(1) and lowerCase(1) and specialChars(1)",
+  "clients": [
+    {
+      "clientId": "enterprise-rag-web",
+      "name": "Enterprise RAG Web",
+      "enabled": true,
+      "publicClient": true,
+      "protocol": "openid-connect",
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": false,
+      "implicitFlowEnabled": false,
+      "redirectUris": [
+        "https://REPLACE_WITH_APP_DOMAIN/auth/callback"
+      ],
+      "webOrigins": [
+        "https://REPLACE_WITH_APP_DOMAIN"
+      ],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "https://REPLACE_WITH_APP_DOMAIN/*##https://REPLACE_WITH_APP_DOMAIN/"
+      },
+      "protocolMappers": [
+        {
+          "name": "api-audience",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "consentRequired": false,
+          "config": {
+            "included.client.audience": "enterprise-rag-api",
+            "id.token.claim": "false",
+            "access.token.claim": "true"
+          }
+        }
+      ]
+    }
+  ],
+  "smtpServer": {
+    "from": "no-reply@REPLACE_WITH_VERIFIED_SMTP_DOMAIN",
+    "host": "REPLACE_WITH_PRODUCTION_SMTP_RELAY",
+    "port": "587",
+    "auth": "true",
+    "ssl": "false",
+    "starttls": "true"
+  }
+}
