@@ -1,0 +1,20 @@
+---
+argument_specs:
+  main:
+    short_description: Configure Rootless Podman host runtime with systemd linger and pasta networking
+    options:
+      podman_service_user:
+        type: str
+        required: false
+        default: svc_containers
+        description: Unprivileged Linux account running Rootless Podman workloads.
+      podman_subuid_range:
+        type: str
+        required: false
+        default: "100000:65536"
+        description: Subordinate UID/GID allocation for user namespaces.
+      podman_enable_auto_prune_timer:
+        type: bool
+        required: false
+        default: true
+        description: Enable weekly unused image cleanup timer for the rootless user.

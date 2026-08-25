@@ -1,0 +1,10 @@
+---
+# Cloud-neutral VPS host baseline (Vigilio Level 1 — 100% product-agnostic)
+- name: Harden Linux VPS host for Rootless Podman & PostgreSQL PITR
+  hosts: vps_nodes
+  become: true
+  roles:
+    - role: podman_rootless_host
+    - role: edge_firewall
+    - role: pgbackrest_pitr
+      when: pgbackrest_cipher_pass is defined and pgbackrest_pg_data_path is defined

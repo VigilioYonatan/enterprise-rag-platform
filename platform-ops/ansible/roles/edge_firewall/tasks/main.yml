@@ -1,0 +1,19 @@
+---
+- name: Install nftables package
+  ansible.builtin.package:
+    name: nftables
+    state: present
+
+- name: Deploy default-deny inbound nftables ruleset with 80/443 DNAT to rootless ingress
+  ansible.builtin.template:
+    src: nftables.conf.j2
+    dest: /etc/nftables.conf
+    owner: root
+    group: root
+    mode: "0640"
+
+- name: Enable and start nftables service
+  ansible.builtin.service:
+    name: nftables
+    enabled: true
+    state: started

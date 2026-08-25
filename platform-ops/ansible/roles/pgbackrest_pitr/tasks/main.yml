@@ -1,0 +1,22 @@
+---
+- name: Install pgBackRest binary on host
+  ansible.builtin.package:
+    name: pgbackrest
+    state: present
+
+- name: Ensure encrypted pgBackRest repository directory exists with strict permissions
+  ansible.builtin.file:
+    path: "{{ pgbackrest_repo_path }}"
+    state: directory
+    owner: postgres
+    group: postgres
+    mode: "0750"
+
+- name: Render encrypted pgBackRest PITR configuration
+  ansible.builtin.template:
+    src: pgbackrest.conf.j2
+    dest: /etc/pgbackrest/pgbackrest.conf
+    owner: postgres
+    group: postgres
+    mode: "0640"
+  no_log: true

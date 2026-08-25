@@ -1,0 +1,14 @@
+[global]
+repo1-path={{ pgbackrest_repo_path }}
+repo1-retention-full={{ pgbackrest_retention_full }}
+repo1-retention-diff=7
+repo1-cipher-type=aes-256-cbc
+repo1-cipher-pass={{ pgbackrest_cipher_pass }}
+process-max=2
+log-level-console=info
+log-level-file=detail
+start-fast=y
+archive-async=y
+
+[{{ pgbackrest_stanza }}]
+pg1-path={{ pgbackrest_pg_data_path }}

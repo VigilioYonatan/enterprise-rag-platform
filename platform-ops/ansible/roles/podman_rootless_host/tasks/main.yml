@@ -1,0 +1,40 @@
+---
+- name: Install Rootless Podman, Compose provider, slirp4netns/pasta and uidmap
+  ansible.builtin.package:
+    name:
+      - podman
+      - podman-compose
+      - passt
+      - uidmap
+      - dbus-user-session
+      - fuse-overlayfs
+    state: present
+
+- name: Create dedicated unprivileged workload user
+  ansible.builtin.user:
+    name: "{{ podman_service_user }}"
+    shell: /usr/sbin/nologin
+    create_home: true
+    system: false
+    state: present
+
+- name: Ensure subuid mapping for rootless user namespaces
+  ansible.builtin.lineinfile:
+    path: /etc/subuid
+    regexp: "^{{ podman_service_user }}:"
+    line: "{{ podman_service_user }}:{{ podman_subuid_range }}"
+    create: true
+    mode: "0644"
+
+- name: Ensure subgid mapping for rootless user namespaces
+  ansible.builtin.lineinfile:
+    path: /etc/subgid
+    regexp: "^{{ podman_service_user }}:"
+    line: "{{ podman_service_user }}:{{ podman_subuid_range }}"
+    create: true
+    mode: "0644"
+
+- name: Enable logind linger so rootless systemd services survive SSH logout
+  ansible.builtin.command:
+    cmd: "loginctl enable-linger {{ podman_service_user }}"
+    creates: "/var/lib/systemd/linger/{{ podman_service_user }}"

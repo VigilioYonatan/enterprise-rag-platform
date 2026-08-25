@@ -1,0 +1,28 @@
+---
+argument_specs:
+  main:
+    short_description: Configure pgBackRest continuous WAL archiving and encrypted PITR repository
+    options:
+      pgbackrest_stanza:
+        type: str
+        required: false
+        default: primary-db
+        description: Logical pgBackRest stanza name.
+      pgbackrest_repo_path:
+        type: str
+        required: false
+        default: /var/lib/pgbackrest
+        description: Encrypted repository path or mount point for WAL & full backups.
+      pgbackrest_pg_data_path:
+        type: str
+        required: true
+        description: Host path of PostgreSQL data directory volume.
+      pgbackrest_cipher_pass:
+        type: str
+        required: true
+        description: Strong AES-256-CBC passphrase injected from Ansible Vault / CI secret.
+      pgbackrest_retention_full:
+        type: int
+        required: false
+        default: 14
+        description: Number of full backups retained for PITR window.
