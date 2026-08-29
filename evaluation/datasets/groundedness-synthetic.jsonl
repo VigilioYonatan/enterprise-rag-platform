@@ -1,0 +1,4 @@
+{"id": "syn-01", "question": "¿Dónde se almacenan los objetos limpios tras el escaneo ClamAV?", "expected_document_ids": ["33333333-3333-4333-8333-333333333333"], "expected_abstention": false}
+{"id": "syn-02", "question": "¿Cuál es el límite diario por defecto para consultas en un nuevo tenant?", "expected_document_ids": ["44444444-4444-4444-8444-444444444444"], "expected_abstention": false}
+{"id": "syn-03", "question": "¿Qué protocolo se utiliza para la autenticación OIDC?", "expected_document_ids": ["55555555-5555-4555-8555-555555555555"], "expected_abstention": false}
+{"id": "syn-04", "question": "¿Información confidencial de la organización extranjera Beta?", "expected_document_ids": [], "expected_abstention": true}
