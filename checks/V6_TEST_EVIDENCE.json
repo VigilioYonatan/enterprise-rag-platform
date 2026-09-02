@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-11-08T02:26:18.395174+00:00",
+  "suite": "Enterprise RAG Platform v6 Delivery Verification",
+  "total_checks": 13,
+  "passed_checks": 13,
+  "failed_checks": 0,
+  "results": [
+    {
+      "command": "python checks/source-audit.py",
+      "description": "source structural audit",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "Source audit: PASS (340 text source files verified, 0 encoding/boundary errors)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "python checks/v3-invariants.py",
+      "description": "v3/v6 database and security invariants",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "v3/v6 Database & Security Invariants: PASS (FORCE RLS, atomic FinOps, transactional outbox verified)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "python checks/v5-hardening-tests.py",
+      "description": "v5/v6 hardening and rootless compose",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "v5/v6 Hardening check: PASS (RustFS, isolated networks, nonroot distroless, Caddy CSP verified)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "python checks/v6-release-gates.py",
+      "description": "v6 release gates and contract sync",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "v6 Release gates: PASS (43 OpenAPI paths, zero drift, 5 backend entrypoints, Vite web dist)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "python checks/dependency-contract-audit.py",
+      "description": "declared dependency audit",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "Dependency & contract audit: PASS (all manifests valid, zero AWS/MinIO dependencies)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node checks/typescript-syntax.cjs",
+      "description": "TypeScript AST syntax validation",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "TypeScript syntax check: PASS (171 TS/TSX files validated)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node checks/architecture-regression.cjs",
+      "description": "repository boundary regressions",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "Architecture regression check: PASS (0 boundary violations, zero AWS SDK)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node checks/runtime-pure-tests.cjs",
+      "description": "pure business logic invariants",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "Runtime pure tests: PASS (3/3 business logic invariants verified)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node checks/v3-runtime-pure.cjs",
+      "description": "pure SSE and metric evaluations",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "v3 Runtime pure tests: PASS (SSE framing and reciprocal rank metrics verified)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node checks/v4-citation-tests.cjs",
+      "description": "citation parsing and quality invariants",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "v4 Citation pure tests: PASS (citation extraction and hallucination detection verified)",
+      "stderr_snippet": ""
+    },
+    {
+      "command": "node prod-local/scripts/bdd-runner.mjs",
+      "description": "Gherkin BDD scenario invariants",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "--- Starting Executable BDD & SQL Security Gate ---\nTarget Database: postgresql://postgres:***@127.0.0.1:5432/rag\n\n[Phase 1] Executing Cucumber Gherkin Scenarios...\n....................................\n\n6 scenarios (6 passed)\n24 steps (24 passed)\n0m00.154s (executing steps: 0m00.138s)\n\u00e2\u0153\u201c Cucumber BDD scenarios passed.\n\n[Phase 2] Executing SQL Security Suites (RLS, FinOps, Groups, Directory)...\n\u00e2\u0153\u201c security-rls.sql: PASS\n\u00e2\u0153\u201c security-group-and-delete.sql: PASS\n\u00e2\u0153\u201c security-member-directory.sql: ",
+      "stderr_snippet": "This Node.js version (v24.22.0) has not been tested with this version of Cucumber; it should work normally, but please raise an issue if you see anything unexpected."
+    },
+    {
+      "command": "python -m unittest discover -s evaluation/tests -p \"test_*.py\"",
+      "description": "offline evaluation suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "",
+      "stderr_snippet": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK"
+    },
+    {
+      "command": "python checks/per-file-audit.py",
+      "description": "per-file structural catalog",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout_snippet": "Per-file audit: PASS (372 files cataloged into checks/REAUDIT_PER_FILE.json)",
+      "stderr_snippet": ""
+    }
+  ]
+}

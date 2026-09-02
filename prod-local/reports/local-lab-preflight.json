@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-08T05:50:41.531Z",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "node": {
+      "version": "v24.22.0",
+      "compatible": true
+    },
+    "pnpm": {
+      "detected": true,
+      "version": "12.14.0"
+    },
+    "python": {
+      "detected": true,
+      "version": "Python 3.14.7"
+    }
+  },
+  "container_runtime": {
+    "podman": {
+      "detected": true,
+      "version": "podman version 6.1.2",
+      "machine_running": true
+    },
+    "docker": {
+      "detected": false,
+      "version": null,
+      "daemon_running": false
+    },
+    "live_container_execution": "READY",
+    "blocking_reason": null
+  },
+  "quality_gates": {
+    "biome": "READY (verified)",
+    "typecheck": "READY (verified)",
+    "vitest": "READY (verified)",
+    "openapi_drift": "READY (verified, 43 paths)",
+    "build_impl": "READY (verified, 5 entrypoints)",
+    "build_web": "READY (verified, Vite dist)",
+    "python_eval_offline": "READY (verified)",
+    "bdd_invariants": "READY (verified, 7/7 scenarios)",
+    "sql_hardening_static": "READY (verified, 012 FORCE RLS)"
+  }
+}

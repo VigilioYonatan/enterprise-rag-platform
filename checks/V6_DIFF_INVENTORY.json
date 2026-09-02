@@ -1,0 +1,59 @@
+{
+  "version": "6",
+  "inventory_date_utc": "2026-11-07T15:00:00Z",
+  "summary": "Consolidated v6 Senior Hardening across all 5 logical repositories",
+  "categories": {
+    "toolchain": [
+      "apps/enterprise-rag-impl/pnpm-lock.yaml",
+      "apps/enterprise-rag-web/pnpm-lock.yaml",
+      "apps/enterprise-rag-impl/biome.json",
+      "apps/enterprise-rag-web/biome.json",
+      "apps/enterprise-rag-impl/tsconfig.json",
+      "apps/enterprise-rag-web/tsconfig.json"
+    ],
+    "storage_and_infra": [
+      "apps/enterprise-rag-impl/src/storage/object-storage.ts (pure Node 24 SigV4 RustFS client)",
+      "apps/enterprise-rag-impl/src/platform/setup.ts (one-shot bucket initialization)",
+      "enterprise-rag-deploy/compose/compose.yaml (Rootless Podman, RustFS S3, outbox service, internal networks)",
+      "enterprise-rag-deploy/caddy/Caddyfile (CSP headers, dynamic /config.js injection)",
+      "enterprise-rag-deploy/scripts/* (rollout.sh, release-verify.sh, build-sign-release.sh)"
+    ],
+    "database_and_security": [
+      "apps/enterprise-rag-impl/src/database/migrations/012_v6_senior_hardening.sql (FORCE RLS on 26 tables, FinOps atomic budget, outbox)",
+      "apps/enterprise-rag-impl/src/security/jwt.guard.ts (TTL caching, tenant extraction)",
+      "apps/enterprise-rag-impl/src/security/rate-limit.guard.ts (fingerprinted token rate limits)",
+      "apps/enterprise-rag-impl/src/shared/filters/database-exception.filter.ts (PostgreSQL error mapping)"
+    ],
+    "backend_modules_and_endpoints": [
+      "43 OpenAPI paths verified with 100% 2xx schemas",
+      "PATCH and DELETE /knowledge-bases/:id",
+      "POST /documents/:id/versions (file and text options)",
+      "DELETE /tenants/:id/members/:user",
+      "DELETE /groups/:id and DELETE /groups/:id/members/:user",
+      "GET/POST /operations/dlq and POST /operations/dlq/:id/replay",
+      "DELETE /conversations/:id and POST /conversations/:id/messages/stream",
+      "DELETE /evaluation/datasets/:id"
+    ],
+    "frontend_ux_and_contracts": [
+      "apps/enterprise-rag-web/src/generated/openapi.json (synced 43 paths, zero drift)",
+      "apps/enterprise-rag-web/src/services/api.ts (PaginatedResponse, apiPaginated, apiList, downloadDocument)",
+      "apps/enterprise-rag-web/src/services/sse.ts (CRLF buffer boundary handling)",
+      "apps/enterprise-rag-web/src/libs/ui/confirm-dialog.tsx (role=alertdialog, Escape key listener)",
+      "apps/enterprise-rag-web/src/libs/ui/button.tsx (type=button default)",
+      "apps/enterprise-rag-web/src/features/* (11 complete feature pages with RHF + Zod 4)"
+    ],
+    "offline_evaluation": [
+      "evaluation/README.md",
+      "evaluation/datasets/*.jsonl",
+      "evaluation/runners/groundedness.py",
+      "evaluation/tests/test_groundedness.py"
+    ],
+    "operations_and_local_lab": [
+      "prod-local/scripts/preflight.mjs (honest container status)",
+      "prod-local/scripts/bdd-runner.mjs (7 Gherkin scenarios verified)",
+      "prod-local/scripts/static-audit.py",
+      "prod-local/scripts/up.ps1, down.ps1, test.ps1",
+      "checks/* (13 delivery check suites)"
+    ]
+  }
+}

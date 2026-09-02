@@ -1,0 +1,2962 @@
+[
+  {
+    "path": ".gitleaks.toml",
+    "bytes": 382,
+    "sha256": "fa8a0de24da7a24e705e513bc4ee8ee1c1b6757a2cfc9863abee916c6e501974",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": ".opencode/skills/auditoria-total-zero-omissions/SKILL.md",
+    "bytes": 25717,
+    "sha256": "d5cac142d284f41d87a1aa1066191a6a2879225dde91a4b00d6afd852393bce7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 357
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/audit/README.md",
+    "bytes": 100,
+    "sha256": "1dd86f6bea88ceccaa172fc1175d0860b5db37a74d9172ceaa7a024d3c862339",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/audit/source-audit.json",
+    "bytes": 240,
+    "sha256": "3617ead05004b441cdeb1c38ae271170fb0d307db82f15899645508cd090ea6c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/MANIFEST.sha256",
+    "bytes": 2229,
+    "sha256": "ed9aba46853f1e972b547fa70ea6f7e691a7260077bdb0e9b7643a34feeea621",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/README.md",
+    "bytes": 269,
+    "sha256": "14a3e141272b195cd5d6bc65506b767c5102cd9439693205be45fc317195bd18",
+    "status": "PASS",
+    "findings": [],
+    "lines": 4
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/01-autoridad-lectura.md",
+    "bytes": 922,
+    "sha256": "d44d2225da663654dba02ff7df985ce4ae6f929ee0e7e68d182660126c852da2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/02-skill-routing.md",
+    "bytes": 1004,
+    "sha256": "7bea5505ee8377561d8a190c4b7f22ac5cf3c6b57e322879678d6cc086fa0abc",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/03-topologia-y-archivos.md",
+    "bytes": 654,
+    "sha256": "01b6966760fb79dc7b4ec26754023b2bf2b71388f1c6f1d9fb5c98b06cd9d8f2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/04-backend-api.md",
+    "bytes": 1077,
+    "sha256": "8b4a7beb31545bd5d0af15da23c102bc5bce422c7c5a50cec30aefbafdb22fb2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/05-datos-rag-llmops.md",
+    "bytes": 1250,
+    "sha256": "dd24e24c49540e74c0649e0e2d9274998a07d11545136ff8a1140d53e6a76719",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/06-frontend-ux-tailwind.md",
+    "bytes": 738,
+    "sha256": "6ff406fdd3854d12e7fe86b281909591e34604c7f341742fd0f4d745e12d485d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/07-devsecops-compose.md",
+    "bytes": 722,
+    "sha256": "559d741875f7f2bb1d95ec816f9283646896c3fdfef61c8f1e17a68e73c7f818",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/08-testing-bdd-e2e.md",
+    "bytes": 739,
+    "sha256": "709a7dda8bde77dc01f11aed26ea122e89cac3ab86e5b46148488c0381257c3f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/09-plan-implementacion.md",
+    "bytes": 518,
+    "sha256": "4ff79ab599b18e0f42d7946f4e6e88c9105616678f34a951aa472d8545c7e814",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/10-operacion-incidentes.md",
+    "bytes": 529,
+    "sha256": "352a15ba622755c92c7025041837cef00c438adf81136f8bd88cfdaf163eb220",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/11-api-catalogo.md",
+    "bytes": 920,
+    "sha256": "ab0b3c26087732ac288f91759ce2e9039e1c0773a555864bc503cfb19a7c41a3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/12-arboles-completos.md",
+    "bytes": 635,
+    "sha256": "00a008ec9bad556be3437786376f17bede08a2f61abad9d3833051ef0ec9ca4e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/references/13-riesgos-decisiones.md",
+    "bytes": 621,
+    "sha256": "4d5ac681633d842c70c7ca2155081badc933e7a87518ccf293b549378e1c2af9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 7
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/scripts/audit_sources.py",
+    "bytes": 492,
+    "sha256": "4a10d4259ae360d89a18b63b96f2d62bd6ba29d4bf54b896c6d25876ca88047d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/scripts/validate_bundle.py",
+    "bytes": 684,
+    "sha256": "d67d282f0ebece4b9d2f4dfdabba83b89aaf33f12fb1dabe8923b878975baa56",
+    "status": "PASS",
+    "findings": [],
+    "lines": 23
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/SKILL.md",
+    "bytes": 3300,
+    "sha256": "ee8b5b1c57f28801006a7496c4effbe785e1f951e1ef8e3963c4df6eb8c06064",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/templates/ADR.example.md",
+    "bytes": 265,
+    "sha256": "788f28a004d3806a3531833fcba42a8973808f63fe4e620e0ccc8c7e34280e66",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/templates/AGENTS.example.md",
+    "bytes": 226,
+    "sha256": "2b412db2075a50cabde96ac23048c2639016bbf51f6a2943ada0682fe2cff6e9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/templates/quality-gates.example.yaml",
+    "bytes": 284,
+    "sha256": "646ddc7d978018c3489528ddb035ebcfb8549ec5dda40adce9e7c1d623c5a419",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": ".opencode/skills/enterprise-rag-senior-2026/templates/skill-read-log.example.yaml",
+    "bytes": 110,
+    "sha256": "834b788fd59460a9f027264359d7a0961f149ec8fd9955f12323edd5030b00b3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 4
+  },
+  {
+    "path": ".opencode/skills/README.md",
+    "bytes": 202,
+    "sha256": "97661d55150eeb3323e602c94386698c5f199b72ff42ec3c71b1466c2ae28757",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 636,
+    "sha256": "8fa8ad4612a145fc85f4d35f859a5c4729bfb8426d773691d7d3386d27272eed",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "apps/enterprise-rag-impl/.dockerignore",
+    "bytes": 75,
+    "sha256": "46212b4e4ed796cf1be0ad7b0d9459267a8cc1a63b51547c319586c1f588f9df",
+    "status": "PASS",
+    "findings": [],
+    "lines": 11
+  },
+  {
+    "path": "apps/enterprise-rag-impl/.env.example",
+    "bytes": 743,
+    "sha256": "42cd42f92cb63c66374cf8fdfb2b01355da8a858e58f478914577ad9b9f45dca",
+    "status": "PASS",
+    "findings": [],
+    "lines": 21
+  },
+  {
+    "path": "apps/enterprise-rag-impl/.github/workflows/ci.yaml",
+    "bytes": 1263,
+    "sha256": "1a7df546ab73611a2780584c6159eae4a130a408773f9a84bd984e2a52a4c6b0",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-impl/.gitignore",
+    "bytes": 92,
+    "sha256": "e93655edeb0975ba10dda3d81b65bd839b73a9a0af31afa61fea676821ef323c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "apps/enterprise-rag-impl/biome.json",
+    "bytes": 877,
+    "sha256": "d0eb644796b74c1d6cdf5e2965f1a19f27cd51086d81865ff0308cf1928def04",
+    "status": "PASS",
+    "findings": [],
+    "lines": 41
+  },
+  {
+    "path": "apps/enterprise-rag-impl/Containerfile",
+    "bytes": 669,
+    "sha256": "edc935204702dcfbe36c9cea08d1a74a6ed40d4b3856d644d8d4df4003d98faf",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "apps/enterprise-rag-impl/Dockerfile",
+    "bytes": 669,
+    "sha256": "edc935204702dcfbe36c9cea08d1a74a6ed40d4b3856d644d8d4df4003d98faf",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "apps/enterprise-rag-impl/drizzle.config.ts",
+    "bytes": 302,
+    "sha256": "15871cead070a585649435b5270c2b730ea7976ff5b1cd176fb73cfa2de90b66",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "apps/enterprise-rag-impl/nest-cli.json",
+    "bytes": 55,
+    "sha256": "2673d4b514404f4431da9f1b36f0c676825b5dec94b3278ba43f2d35bc3c58bb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1
+  },
+  {
+    "path": "apps/enterprise-rag-impl/openapi.json",
+    "bytes": 613213,
+    "sha256": "836a25194aa957b59d3b1a0fd8e1acae19345fe6a2e08e809dfa672c1c47b59c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18985
+  },
+  {
+    "path": "apps/enterprise-rag-impl/package.json",
+    "bytes": 2675,
+    "sha256": "c83c10c6bf3640006aa673e15651d0b00fc9104007fda22e49e1523d52c9f593",
+    "status": "PASS",
+    "findings": [],
+    "lines": 77
+  },
+  {
+    "path": "apps/enterprise-rag-impl/pnpm-lock.yaml",
+    "bytes": 283440,
+    "sha256": "c1ff5f0898a09854e81a1ae2cd700f6324ea3f39da320daa0a142f2bb3af1018",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8132
+  },
+  {
+    "path": "apps/enterprise-rag-impl/pnpm-workspace.yaml",
+    "bytes": 370,
+    "sha256": "ab95731e67abdda31b4ccbcbafdd3df7d315c38ac639997f482c4a28385e5d46",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "apps/enterprise-rag-impl/scripts/copy-sql-assets.cjs",
+    "bytes": 424,
+    "sha256": "225a8ef14916d29aed0a5ed044e14085cd0bfee87f560d074a62e0d01396ff13",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": "apps/enterprise-rag-impl/scripts/init-db.mjs",
+    "bytes": 3063,
+    "sha256": "01bca01cd1d35cf82b31e004d312e675a6acea241cd8e62e6635511cac8ecaeb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 89
+  },
+  {
+    "path": "apps/enterprise-rag-impl/scripts/openapi-diff.cjs",
+    "bytes": 1593,
+    "sha256": "c849988c0849b1ab6c13dbeb96f7fcc15315f106c844b5096825b196ba519916",
+    "status": "PASS",
+    "findings": [],
+    "lines": 41
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/app.module.ts",
+    "bytes": 2595,
+    "sha256": "749591b25df9b08d65579e5bb158c012107f36afdaa3406c4bc6ceb81c8c6ff9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 69
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/config/env.ts",
+    "bytes": 3243,
+    "sha256": "57c04359e692f9f5c07e3556a524121735fcf1b7aa41c505d0629c03aba0343f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 71
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrate.ts",
+    "bytes": 2058,
+    "sha256": "660bcfd2781fcdefbeb07f75b3f876ba92f5c7940f510d27402683ecd0f58da5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 62
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/001_core.sql",
+    "bytes": 6566,
+    "sha256": "0d198ca2722ba074fd13ca0dd1a5dc476daafb750f22e5bcc9e4b01e85bd0afd",
+    "status": "PASS",
+    "findings": [],
+    "lines": 50
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/002_enterprise_capabilities.sql",
+    "bytes": 13070,
+    "sha256": "1cdb537797cc162afed9c0884cfd5ad93d091972486ba7c189df75fc5716601a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 176
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/003_operations.sql",
+    "bytes": 553,
+    "sha256": "ba5230854dedaf5ca9d0eb48c43a8ef58056ea7eb8e4c93d1babadce93dd0607",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/004_groups_and_vector.sql",
+    "bytes": 2497,
+    "sha256": "511226ebb3d483bfd1fe41ba2bd51daae58003e6031d423d18ed364c3ccea7bf",
+    "status": "PASS",
+    "findings": [],
+    "lines": 31
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/005_conversation_revocation.sql",
+    "bytes": 757,
+    "sha256": "1f978d98ec598ba6a7d81191fea6a561b996f3c903e70a0a08b9148582c78fe2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/006_answer_evidence.sql",
+    "bytes": 2425,
+    "sha256": "0724506649f725d8a10c9b8e9b7e34ec65e7e208afd0427be73829c76f59bf9a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/007_worker_leases.sql",
+    "bytes": 571,
+    "sha256": "9fc00b8d0503a78e3012f1bda8b54d1cdad70c28f511bd6f89882fe653e2eb7e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/008_member_directory_rls.sql",
+    "bytes": 1287,
+    "sha256": "3011ea01254ccf9cf872dead0b98e25107dd922b2f5b8110166eb91b24f7282c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 23
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/009_storage_deletion.sql",
+    "bytes": 1263,
+    "sha256": "a397a408dc66d4803d6a59c7e8874571419f119171e6eb80e4e71b06b4006632",
+    "status": "PASS",
+    "findings": [],
+    "lines": 20
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/010_finops_costs.sql",
+    "bytes": 669,
+    "sha256": "85797ec966f54bb0c7edfe5a7b92a2183b1120e7f7f535728e853642e6b2fae1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/011_evaluation_quality.sql",
+    "bytes": 1138,
+    "sha256": "7da4dd0ea86976899dd302a67ef0eace8b8c55d174c72cc4485e6b4f669bc377",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/migrations/012_v6_senior_hardening.sql",
+    "bytes": 25262,
+    "sha256": "062b4cff82babe42d7aa4cc12014addb0f827a31f5bae6655a9ef18a183b5665",
+    "status": "PASS",
+    "findings": [],
+    "lines": 517
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/pool.ts",
+    "bytes": 1230,
+    "sha256": "41370c748fe85cf7b3630b2a194f097fd8067fff893dcb7d2f730d9a838d6cc7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/database/schema.ts",
+    "bytes": 11466,
+    "sha256": "7717505374805d6a210f91b8af50148db18aa1ef6c64981a9aeaff4bdffa518b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 282
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/evaluation/citation-quality.ts",
+    "bytes": 2844,
+    "sha256": "dd3302ea159c8fca6ec492e5b8555fe892c2557df927e1240ad3cf8db213dd7d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 69
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/evaluation/metrics.ts",
+    "bytes": 1496,
+    "sha256": "f7ebde2a34f00fa56f2040542d49f5a7f7f07108f778d9e650c7c0d04ffb200c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 43
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/main.ts",
+    "bytes": 2770,
+    "sha256": "38f02492c4f505bc5afb8eaad348b3653b24519d3b4e8cf88381827f44351001",
+    "status": "PASS",
+    "findings": [],
+    "lines": 71
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/application/conversations.service.ts",
+    "bytes": 1884,
+    "sha256": "91336a50560bba12599d00db934285b72bb816c4d252cc09b3daa3b186770ae7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 59
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/application/ports/conversations-repository.port.ts",
+    "bytes": 1279,
+    "sha256": "0aceecd2e95821a16e056817323768cf39e4da3e516aa00643a131c9a2a2b199",
+    "status": "PASS",
+    "findings": [],
+    "lines": 39
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/conversations.module.ts",
+    "bytes": 711,
+    "sha256": "aae1cf04d53112b1c3295ebbcc9e5b37f48f64c0d97ea721455b01684006b1c2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/infrastructure/persistence/conversations.repository.ts",
+    "bytes": 10838,
+    "sha256": "678994daf6dd599592976c18d95f1b158e66fe0fadd6f17dcc9cf0f9b1e2f51b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 299
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/infrastructure/persistence/conversations.seeder.ts",
+    "bytes": 3855,
+    "sha256": "4e530e52437ec2d7e4f6f602d5977126cba600f26e4191d2b6fc8f9f472dd6d9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 108
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/presentation/http/conversations.controller.ts",
+    "bytes": 6371,
+    "sha256": "6ccaa0a9cd77f95cd85dbce85642de303674c776972d8ee73668466ad9bbf597",
+    "status": "PASS",
+    "findings": [],
+    "lines": 184
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/conversations/presentation/http/dto/conversations.dto.ts",
+    "bytes": 2057,
+    "sha256": "b9a234de5642b28c6897d656037b00d38379f8c7fbd59d21c396b103f72258b3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 75
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/application/evaluations.service.ts",
+    "bytes": 3731,
+    "sha256": "9f12a0244de16fddf941e148bca1bf711a56968c0a3bc0e5f27e617d392ca04d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 102
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/application/ports/evaluations-repository.port.ts",
+    "bytes": 2203,
+    "sha256": "6db067115a5b036aa2014dd730f46f7ba338f2a25234362798775114edcae84b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 79
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/domain/retrieval-metrics.ts",
+    "bytes": 1580,
+    "sha256": "35dfb89c7794d3832029eb281c5e1ea2f8e63f39cb531ee45286d4f1e2170a5d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/evaluations.module.ts",
+    "bytes": 672,
+    "sha256": "97123dea08c3c85de03f901550328db3ea5e897b77c1ce73dc2c3f18ba5a671e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/infrastructure/persistence/evaluations.repository.ts",
+    "bytes": 13116,
+    "sha256": "f9f850e60ae5bb8abab264a0d23c5b1beb737f09531b74fa88b9f51c6c67cac6",
+    "status": "PASS",
+    "findings": [],
+    "lines": 377
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/infrastructure/persistence/evaluations.seeder.ts",
+    "bytes": 5236,
+    "sha256": "9e2ccaee01050bed4747882c0a3821947240df1529a79d4967a0c54fdf75e106",
+    "status": "PASS",
+    "findings": [],
+    "lines": 167
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/presentation/http/dto/evaluations.dto.ts",
+    "bytes": 2591,
+    "sha256": "fc0ca031f909bae66e3732a75ef50f87e61f9994b263b10809caa05dd1ae2f2c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 87
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/evaluations/presentation/http/evaluations.controller.ts",
+    "bytes": 6248,
+    "sha256": "77732ac84b7a654ae7a304a0fa0099619e6ff5917b40526c36f864f06694f48f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 175
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/application/governance.service.ts",
+    "bytes": 3780,
+    "sha256": "3df1166bc072fec483ec0db88c42a54b03165ae0dacdf287346337599ad95c71",
+    "status": "PASS",
+    "findings": [],
+    "lines": 120
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/application/ports/governance-repository.port.ts",
+    "bytes": 4059,
+    "sha256": "4d860a6a74910574684ce825e214b3a55122a466f5114599bab74d8585c6f9b8",
+    "status": "PASS",
+    "findings": [],
+    "lines": 139
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/governance.module.ts",
+    "bytes": 564,
+    "sha256": "4daee0573ce44a80e9cc92e8c615c650985ccb23126918430abc087162401ddb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 11
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/infrastructure/persistence/governance.repository.ts",
+    "bytes": 35261,
+    "sha256": "a016ac18155c50fbe99d7825527a61149c40b19be10485096b222af5606c8b0e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 936
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/infrastructure/persistence/governance.seeder.ts",
+    "bytes": 6444,
+    "sha256": "27abdee988d945ca827ff1a99e2e1913d509235dd612d47cecffa0b36b4a1b01",
+    "status": "PASS",
+    "findings": [],
+    "lines": 217
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/presentation/http/dto/governance.dto.ts",
+    "bytes": 4377,
+    "sha256": "cc4f5b82bfbd7f6705ee53e760dbc1d039216cdb3c2c5644bf52793087dd4b5f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 158
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/presentation/http/dto/groups.dto.ts",
+    "bytes": 1339,
+    "sha256": "6a65bb1181265103f7502f138fceb35443077177b06ff041913cd61eef59a958",
+    "status": "PASS",
+    "findings": [],
+    "lines": 57
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/governance/presentation/http/governance.controller.ts",
+    "bytes": 14471,
+    "sha256": "31df86d242413bba87eddadc168ae9f27739ac1299708b3c243a8a98a4f3d9fa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 409
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/answer.service.ts",
+    "bytes": 5868,
+    "sha256": "7d9b92e897cffbb01eb9595c6ab496a5d3452af2e74aa975056c0ade1fbd50d3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 155
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/knowledge.service.ts",
+    "bytes": 2243,
+    "sha256": "2cd598a5689c4a9565e4f7605f0e3672edbe5bc55aeadce58abfe0a0d760bf30",
+    "status": "PASS",
+    "findings": [],
+    "lines": 66
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/ports/ai-providers.port.ts",
+    "bytes": 1062,
+    "sha256": "e87c67b60f8fb5baa21b5eb1e58eaebf893e85ff13ee3114aad54f8f693d56fb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 36
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/ports/knowledge-repository.port.ts",
+    "bytes": 1549,
+    "sha256": "9eeac1312e60a82d28a726e0993a1af714f6e12db862769c8d3e98c833e24cd2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 50
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/ports/retrieval-repository.port.ts",
+    "bytes": 464,
+    "sha256": "a720f7e3345e326ab7064779c5364b6a8e26485d7063e0669b5b86782b32a23d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/application/retrieval.service.ts",
+    "bytes": 1529,
+    "sha256": "4b20cb8fa6505ea38c2805cabcb9c56d2ad2d366059b03d08b4e1df96eb3f28c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 42
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/domain/schemas/knowledge.schema.ts",
+    "bytes": 1103,
+    "sha256": "0fa1893a57f289e41a058db3fa862d896eef97d56ed6947c28b32023f02d46a3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 48
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/infrastructure/ai/ollama-ai.adapter.ts",
+    "bytes": 5250,
+    "sha256": "461ba48d62136b4c6693320e074b1ab6a378c443daa0f810af930cfb6ef24dd2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 154
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/infrastructure/persistence/answer-budget.repository.ts",
+    "bytes": 3365,
+    "sha256": "93cb2d70cb172735e9e37328ddc08d438ac3045e929f07a513a695a8bb6e5c0e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 88
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/infrastructure/persistence/knowledge.repository.ts",
+    "bytes": 9151,
+    "sha256": "d66ddaa159a1d52e78951877edced6fc80eb8cca710282ce586608e412d03c97",
+    "status": "PASS",
+    "findings": [],
+    "lines": 234
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/infrastructure/persistence/knowledge.seeder.ts",
+    "bytes": 11356,
+    "sha256": "c3995b6d63301ab4def8996ce7fa4c1018e0b7c09387c97bb2cbc54b8e06ccfb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 326
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/infrastructure/persistence/retrieval.repository.ts",
+    "bytes": 3992,
+    "sha256": "ab2cb61bd9b1a6c64f07cb912ff6ffbfdb64c5a39c8ebdf46502938cf7702923",
+    "status": "PASS",
+    "findings": [],
+    "lines": 99
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/knowledge.module.ts",
+    "bytes": 1700,
+    "sha256": "c2ac38d85d9a31db9a4cec408d8d30817a0f57e35421d42db860c8a9f3325054",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/ask-question.request.dto.ts",
+    "bytes": 240,
+    "sha256": "5fdb92dc54ab4ab76e9c467b29b380f70fbe20f32d3a40301849d9c6e919e0a8",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/create-knowledge-base.request.dto.ts",
+    "bytes": 453,
+    "sha256": "39fed26efbcef4d08a8ec50f432bde61bc0041bf80dcd068e58d643d83e56e4d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/create-tenant.request.dto.ts",
+    "bytes": 206,
+    "sha256": "9b801b39ddf661671105092c68ab511788a68e7707be30da27ce4310cb7045b1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/create-text-document.request.dto.ts",
+    "bytes": 451,
+    "sha256": "37e0a275890d31bbda66f63c770e2fce564d53cfe62ffb413cf24f1f228bb92c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 15
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/knowledge.dto.ts",
+    "bytes": 414,
+    "sha256": "739d56e2a20857e8bdb6c0995fa065fb4bcdd67c0f42c1f80ce2d2cdf01d330c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/knowledge.response.dto.ts",
+    "bytes": 1963,
+    "sha256": "1df39f9d4fe4873a57a2d390d9295c9a33dd91a7d113505bf8d13d9505bec03c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 68
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/search-knowledge.request.dto.ts",
+    "bytes": 249,
+    "sha256": "ddb30af671dd7f9fc16a0d04cdee9f3b3465f0308e0b6705eb984da158fa694a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/dto/uuid.param.dto.ts",
+    "bytes": 140,
+    "sha256": "968d30a4dde9c388da77f72f3b61779f6c736a3440d96db8a6a14f050b4e111c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 4
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/knowledge/presentation/http/knowledge.controller.ts",
+    "bytes": 10046,
+    "sha256": "da5e9492e2c78e8c6505f270f32702cf19ccb6009b33539c49839de7551c3afd",
+    "status": "PASS",
+    "findings": [],
+    "lines": 287
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/application/ports/uploads-repository.port.ts",
+    "bytes": 1560,
+    "sha256": "1f4a1e9c48179b1941a54028a979d59e4bfe8bebe7f99d15d1fcf2ec4b818fee",
+    "status": "PASS",
+    "findings": [],
+    "lines": 46
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/application/uploads.service.ts",
+    "bytes": 5251,
+    "sha256": "85e1bfa39b186f3fe844e9d817a87d4ce8467aabcf9166a4cef02d0d3466e091",
+    "status": "PASS",
+    "findings": [],
+    "lines": 154
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/domain/upload-envelope.ts",
+    "bytes": 1451,
+    "sha256": "13d6922d487a8966ed0103b26409e6c13dded2a57fade80f7207cdaa14ea5bf3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/infrastructure/persistence/uploads.repository.ts",
+    "bytes": 9491,
+    "sha256": "a4b8273fe681695c253fd986a317f4bf157ef1fb0bc602ab9ac61a3c626f4eaf",
+    "status": "PASS",
+    "findings": [],
+    "lines": 266
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/presentation/http/dto/uploads.dto.ts",
+    "bytes": 261,
+    "sha256": "faedc9653d4a7277abce07cae7e13548becac6fc627965a14a90f9c3fa3acc62",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/presentation/http/uploads.controller.ts",
+    "bytes": 4006,
+    "sha256": "ccb99cc422bf5808515c0e0cc55c93935e925fb9574218383fb411e6147731e1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 123
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/modules/uploads/uploads.module.ts",
+    "bytes": 668,
+    "sha256": "ec1129a88edddf2d4dee1ba1ea584650e8fd27f65990752025ffc7754d0d7c86",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/logger.module.ts",
+    "bytes": 1700,
+    "sha256": "cbcb43c09b5a6c0ad59bcc5ed0b10e213ffcbd790cea79b6130404a6d36a3148",
+    "status": "PASS",
+    "findings": [],
+    "lines": 59
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/metrics.controller.ts",
+    "bytes": 495,
+    "sha256": "37a180782dee18aed0bf2869b4068bf087e37529c3b692040b8f253fa2031637",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/metrics.interceptor.ts",
+    "bytes": 1135,
+    "sha256": "dcc3e1600916a29b777a8ab642b13f8bcb273d332feb4fba6f501f86bc132c8e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 31
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/metrics.ts",
+    "bytes": 1087,
+    "sha256": "c3a91abc5c84e8857d24f79f3ea77e9f52974e5d571f11c33eb0eca92b4bc4ca",
+    "status": "PASS",
+    "findings": [],
+    "lines": 35
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/request-id.middleware.ts",
+    "bytes": 525,
+    "sha256": "89bde930104fb357d46f588dc988bb9f863bc9278f6c8b77639da5757672f856",
+    "status": "PASS",
+    "findings": [],
+    "lines": 11
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/observability/tracing.ts",
+    "bytes": 1846,
+    "sha256": "1565065dc2a015e827362b7a3c4814c8c35fc29555899ca48338650bb2c2c196",
+    "status": "PASS",
+    "findings": [],
+    "lines": 43
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/openapi/zod-decorators.ts",
+    "bytes": 2301,
+    "sha256": "074e71734e7f00d51f527342267956f4e4898a23a62cbfb64ae4e189f7251daf",
+    "status": "PASS",
+    "findings": [],
+    "lines": 71
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/outbox/main.ts",
+    "bytes": 4606,
+    "sha256": "ed050b43d89c84b583c144da194adcdad99b7831827c95262a0f909a9d33b9fa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 147
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/platform/setup.ts",
+    "bytes": 736,
+    "sha256": "796605c53c2b1752a87ff40af61206bc3411032e52ee2be87a2b931d981976bb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 23
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/scripts/export-openapi.ts",
+    "bytes": 975,
+    "sha256": "e427b000e4a5fda86970095d4264b299818e35adad81a6b89a80768153d32a56",
+    "status": "PASS",
+    "findings": [],
+    "lines": 29
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/scripts/seed-local-db.ts",
+    "bytes": 2782,
+    "sha256": "6c25c82688c3bce898d9142c4828817f94fee405bef2f25073279c62d0032258",
+    "status": "PASS",
+    "findings": [],
+    "lines": 83
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/security/actor.ts",
+    "bytes": 364,
+    "sha256": "49fd54f6760de14675dd8c19ca787c0872b623fd2c925dd9b5264f8beda769b2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/security/jwt.guard.ts",
+    "bytes": 3102,
+    "sha256": "bb861f9e863cbd4bcaf23ea8cfa4d2a51f8ed84297c6971e8a311e0ebf72cfed",
+    "status": "PASS",
+    "findings": [],
+    "lines": 94
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/security/rate-limiter.ts",
+    "bytes": 925,
+    "sha256": "8813a193cb4e40354ab14af0fdbde19c2a44c46be6e067e7a0f6b8b0daaa0ecd",
+    "status": "PASS",
+    "findings": [],
+    "lines": 25
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/database-exception.filter.ts",
+    "bytes": 2997,
+    "sha256": "6bfab0077f338cea350f3236630852897792818461e9322686648f0704e231fa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 92
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/http/dto/offset-pagination-query.dto.ts",
+    "bytes": 659,
+    "sha256": "5615c9debfdbf2b23dd4d34cc23e8cc4b52272733cd51c32b13d24c24662741f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 23
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/http/dto/paginator.dto.ts",
+    "bytes": 2338,
+    "sha256": "72594614c70aa518f5a1e425daef50136c0e2366162bfd38821ae86131be60f4",
+    "status": "PASS",
+    "findings": [],
+    "lines": 85
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/infrastructure/database/seeders/seed-runner.ts",
+    "bytes": 10027,
+    "sha256": "1593aea43e56dba5e074b492f59368bd49cc1a25f5ce86612fb0f70fd97e3f01",
+    "status": "PASS",
+    "findings": [],
+    "lines": 307
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/infrastructure/database/seeders/seed-types.ts",
+    "bytes": 5957,
+    "sha256": "d2b2faefb83f546669f63db632c632133d34e94441749ef6c0f874795cd408ee",
+    "status": "PASS",
+    "findings": [],
+    "lines": 149
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/shared/validation.pipe.ts",
+    "bytes": 686,
+    "sha256": "be1408f2e6351b3c4cebcf6330fd78cd9e9e048244ee468a982229ea06311cd1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 21
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/storage/object-storage.ts",
+    "bytes": 7745,
+    "sha256": "7c76cb7fc73e1c69e15d1c3364c8192488f97bc430d43e48f3ebb448c7e5a950",
+    "status": "PASS",
+    "findings": [],
+    "lines": 240
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/worker/extract.ts",
+    "bytes": 4103,
+    "sha256": "755d568dc17daec76d02d67513ab5f158e7e7b3838a97c444feba3272e9a72d0",
+    "status": "PASS",
+    "findings": [],
+    "lines": 116
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/worker/main.ts",
+    "bytes": 16288,
+    "sha256": "672bbe8ab3e471a30162ef52c07b8aa3be896ee5d219895d64fdaaff00e8c100",
+    "status": "PASS",
+    "findings": [],
+    "lines": 452
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/worker/queue-runner.ts",
+    "bytes": 3615,
+    "sha256": "f312acdcb75ea6cc7ac00e80190f1019cc559af769989731822b540f6fa05bd6",
+    "status": "PASS",
+    "findings": [],
+    "lines": 104
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/worker/scanner.ts",
+    "bytes": 2492,
+    "sha256": "21ae580719908ee3714cc3fd628da515db1848e06c7d0a35fd4262af3661b427",
+    "status": "PASS",
+    "findings": [],
+    "lines": 76
+  },
+  {
+    "path": "apps/enterprise-rag-impl/src/worker/storage-gc.ts",
+    "bytes": 3003,
+    "sha256": "ef9f2011958429bd85f3d9fadba4eff40143909339e9fd903d226d0cfbf9f060",
+    "status": "PASS",
+    "findings": [],
+    "lines": 91
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/bdd/features/document-acl.feature",
+    "bytes": 2137,
+    "sha256": "9bd1a3330df02625860ea2982df79746920aa66bfa3b28a4081074bf3535cda5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 39
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/bdd/steps/document-acl.steps.ts",
+    "bytes": 5647,
+    "sha256": "8af696d2d9182edb35a9476297f34a3c191e00f37dcbb132c836c82dbc756247",
+    "status": "PASS",
+    "findings": [],
+    "lines": 165
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/contracts/contracts.test.ts",
+    "bytes": 1900,
+    "sha256": "89bc5ae706495ac93296b6120c64beee357264a7265479f8029a2f98923a8008",
+    "status": "PASS",
+    "findings": [],
+    "lines": 46
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/contracts/http-controllers.test.ts",
+    "bytes": 24844,
+    "sha256": "ff3379f3c2fca9299542a459602a6b46473da9e5a02a24563cab1bd1c725fe08",
+    "status": "PASS",
+    "findings": [],
+    "lines": 544
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/contracts/http-dtos.test.ts",
+    "bytes": 1489,
+    "sha256": "64e194be47be12ebacad06b5239eca96760149cc03c894f0e4e3d1dca2879e50",
+    "status": "PASS",
+    "findings": [],
+    "lines": 35
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/sql/security-finops-and-roles.sql",
+    "bytes": 4955,
+    "sha256": "7504b8ed6adc2d9c222d766004c0e71a90dca638e1a87672900b3eebabded407",
+    "status": "PASS",
+    "findings": [],
+    "lines": 141
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/sql/security-group-and-delete.sql",
+    "bytes": 3117,
+    "sha256": "874ddf49fab44532902f14f6f70197fe50146982fc0587b4ef09602a5fe376aa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 52
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/sql/security-member-directory.sql",
+    "bytes": 1767,
+    "sha256": "4810c4fb62eab0382d6a48261ee02401a0dd726bb49fa793c96fe9aac4f6e6c1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 29
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/sql/security-rls.sql",
+    "bytes": 2888,
+    "sha256": "8fbb4426b6e9c048ef7251f3726cab2314863cf9aa6e171bbfc1af5c6a34edf2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 46
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/citation-quality.test.ts",
+    "bytes": 1370,
+    "sha256": "6017ccc104b36b790a0a131a884d23e5a94cb50342ecb0452fbc71d006f151ea",
+    "status": "PASS",
+    "findings": [],
+    "lines": 28
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/conversations-and-governance.test.ts",
+    "bytes": 27830,
+    "sha256": "1b0ea2e9066207fabf7a0b776d1b55b7e68f9b1d12a782f12c1b2ba94ce121b7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 566
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/database-pool.test.ts",
+    "bytes": 1416,
+    "sha256": "5ea50248670f3277e2214b16e3e612576c08fa5f63586eaa771d33a13c274c3c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/evaluations-service.test.ts",
+    "bytes": 5607,
+    "sha256": "d2bcce0023e966c7a21139d1937e0bdb088cc75950d7a6a7b6d814aaafd76fff",
+    "status": "PASS",
+    "findings": [],
+    "lines": 168
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/knowledge-service.test.ts",
+    "bytes": 3326,
+    "sha256": "228430a55407020b4e56eeae24d890b07a31199f6bb6324b8db29699be53f943",
+    "status": "PASS",
+    "findings": [],
+    "lines": 70
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/metrics.test.ts",
+    "bytes": 754,
+    "sha256": "68329d19987df8a0b07f0ff1c36f0505c5ebb5045b9eba9e884d197080520c5a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/persistence-and-ai.test.ts",
+    "bytes": 23150,
+    "sha256": "b9e46fd37e7ded2a7bc6aca92537b106868bf558a78ab68e90ed988951b30719",
+    "status": "PASS",
+    "findings": [],
+    "lines": 519
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/request-id.test.ts",
+    "bytes": 1229,
+    "sha256": "d90cff614dc614b97e5538c43450ca6b5e1e4ede27a502f2199e51ef7ce7a33c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 31
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/retrieval-metrics.test.ts",
+    "bytes": 1175,
+    "sha256": "3a1a8bee0dcf52ca0103b32c691b65b01111ff45433d47e1d0bc8757635fa788",
+    "status": "PASS",
+    "findings": [],
+    "lines": 26
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/retrieval-service.test.ts",
+    "bytes": 2195,
+    "sha256": "2a7ca68dd1baf456b673b132a70c2002df998317bd7530698637761a8d22b070",
+    "status": "PASS",
+    "findings": [],
+    "lines": 49
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/rustfs-storage.test.ts",
+    "bytes": 4734,
+    "sha256": "a84ba81060a05b3ecc4bb1f26d875001b7e5170bfc0c0c4d28df7464c53d4893",
+    "status": "PASS",
+    "findings": [],
+    "lines": 128
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/security-and-filters.test.ts",
+    "bytes": 6375,
+    "sha256": "bd6c686516c3ec62d6b8bf64f6d95288e1f019d39f78e09cfbe14d14a1db420a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 173
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/seeders.test.ts",
+    "bytes": 9827,
+    "sha256": "0df7178920ac83aaa214dc4c11ee1932a8e9fca5a190a75ce73cb8c85e503e02",
+    "status": "PASS",
+    "findings": [],
+    "lines": 265
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/services-vertical.test.ts",
+    "bytes": 6513,
+    "sha256": "fd6366190f1bc8a09ae264749ce52324502e7af6ff99085bea710bd76a03307b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 159
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/upload-envelope.test.ts",
+    "bytes": 1005,
+    "sha256": "ef717d9db55938d2cb00ba04411396ac8ed626944d1bd0659f56326d8b93dbc3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/uploads-service.test.ts",
+    "bytes": 5722,
+    "sha256": "72395eee784ef4fe6c76486e19a099b00abb0732d380f246edf477a2dc301ad9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 141
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/worker-and-outbox.test.ts",
+    "bytes": 12113,
+    "sha256": "295bf66b1281f6a8a69adc3a17ad5e0ee1c27e34360b183b6af3dfa4b1f51f32",
+    "status": "PASS",
+    "findings": [],
+    "lines": 343
+  },
+  {
+    "path": "apps/enterprise-rag-impl/test/unit/worker-extract.test.ts",
+    "bytes": 1956,
+    "sha256": "4e874559b8952dfe367b8d3e1e8fefe807a97f2f84695c426d9e64220bfac76e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 43
+  },
+  {
+    "path": "apps/enterprise-rag-impl/tsconfig.json",
+    "bytes": 448,
+    "sha256": "6e7bbd31bdc88e77151d7ee9774746f96805945d286ee557d645e11cc67a04c3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 25
+  },
+  {
+    "path": "apps/enterprise-rag-impl/tsconfig.typecheck.json",
+    "bytes": 261,
+    "sha256": "ea1d30433ccca31525028a4dd4b2d234e34ebd9d6c874b5824572b8fa386f275",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "apps/enterprise-rag-impl/vitest.config.mts",
+    "bytes": 567,
+    "sha256": "8fae32163ae9a6a1c9dd3677112cc986bd812e09c02e26fb1b3623dbd808f8be",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "apps/enterprise-rag-web/.dockerignore",
+    "bytes": 111,
+    "sha256": "647aafece5aa08d3d1ef1ca2a49a3d0b219d09dd3ac188c8c453a58b832eeb5c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "apps/enterprise-rag-web/.env.example",
+    "bytes": 175,
+    "sha256": "27eaaa057463ee790649d04e68828fee0ff434d6f46e77bc70d51c87579e8dff",
+    "status": "PASS",
+    "findings": [],
+    "lines": 5
+  },
+  {
+    "path": "apps/enterprise-rag-web/.github/workflows/ci.yaml",
+    "bytes": 1240,
+    "sha256": "90467c25771f764237478a8e1f52e91177807b67901bbd67e684744ab097aaca",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "apps/enterprise-rag-web/.gitignore",
+    "bytes": 125,
+    "sha256": "724c35e22140ed28f6d20cbf8950f39852d528cc65bd291d77e7b0fd7c15ed20",
+    "status": "PASS",
+    "findings": [],
+    "lines": 11
+  },
+  {
+    "path": "apps/enterprise-rag-web/biome.json",
+    "bytes": 1032,
+    "sha256": "7a0b105091db0d30bf27ba9e5f68b137674cfd1c12bc0e6c6e7f72c1e16c9a6e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 48
+  },
+  {
+    "path": "apps/enterprise-rag-web/Caddyfile",
+    "bytes": 1409,
+    "sha256": "fa44a334ab06cba9d913d57869c62ab214916b1a145b99b5d11b412fc7de0397",
+    "status": "PASS",
+    "findings": [],
+    "lines": 33
+  },
+  {
+    "path": "apps/enterprise-rag-web/Containerfile",
+    "bytes": 689,
+    "sha256": "9c20fe0d3b7d8c4df889e77c94141980ededc72416c04697d090b5fa8462583a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": "apps/enterprise-rag-web/Dockerfile",
+    "bytes": 689,
+    "sha256": "9c20fe0d3b7d8c4df889e77c94141980ededc72416c04697d090b5fa8462583a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": "apps/enterprise-rag-web/e2e/all-pages-senior.spec.ts",
+    "bytes": 16657,
+    "sha256": "8ac8129a3f764ae7b07507e9d4aeb3d687ad86440856608f0610e9e01167b722",
+    "status": "PASS",
+    "findings": [],
+    "lines": 293
+  },
+  {
+    "path": "apps/enterprise-rag-web/e2e/helpers.ts",
+    "bytes": 2031,
+    "sha256": "1f3b0273bd07804b2a5bf19f27c0fd9bc1aba30982deb9208e08923d16e43cbb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 47
+  },
+  {
+    "path": "apps/enterprise-rag-web/e2e/public-and-auth.spec.ts",
+    "bytes": 1640,
+    "sha256": "ba1183c03d3672954ebc4cecedcba4fc8145c8d52eb4cc7126ccaf2c5a122d65",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "apps/enterprise-rag-web/e2e/seeded-workspace-smoke.spec.ts",
+    "bytes": 6386,
+    "sha256": "cea31fdb73f4f93e23676701ab75ebc857b7cd9da789bf41cb08a0c8bc41ec07",
+    "status": "PASS",
+    "findings": [],
+    "lines": 116
+  },
+  {
+    "path": "apps/enterprise-rag-web/index.html",
+    "bytes": 654,
+    "sha256": "108b8d590cfb6f045ffff53640641650d7e4dc8165ed0a48c52ad5d857dcc407",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "apps/enterprise-rag-web/package.json",
+    "bytes": 1755,
+    "sha256": "2468f4b94b1c10001c366c64a5631966c1c3aff692958badadb0b696a0a9f5a6",
+    "status": "PASS",
+    "findings": [],
+    "lines": 57
+  },
+  {
+    "path": "apps/enterprise-rag-web/playwright.config.ts",
+    "bytes": 560,
+    "sha256": "40873d2be765dcbe9d8305c5dc39b91c4650a0a0066c5fe07fda863b7c855679",
+    "status": "PASS",
+    "findings": [],
+    "lines": 20
+  },
+  {
+    "path": "apps/enterprise-rag-web/pnpm-lock.yaml",
+    "bytes": 76423,
+    "sha256": "ffef0461514a56d3ccb1b148d4d99e8e2a188f0560bc7791eac1f10a24ff7349",
+    "status": "PASS",
+    "findings": [],
+    "lines": 2332
+  },
+  {
+    "path": "apps/enterprise-rag-web/pnpm-workspace.yaml",
+    "bytes": 254,
+    "sha256": "3d917cd0e58db620d3b70535b72f085fa277a10766a471cf65b250b06ac75e92",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "apps/enterprise-rag-web/public/config.js",
+    "bytes": 53,
+    "sha256": "88e1b1b126f9777a9e506abedb9ba6244dc3f202a5ad34274819dafedadeb3ce",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/app/app-and-layout.test.tsx",
+    "bytes": 4839,
+    "sha256": "4a316c142d080cbb6a1c95bd0755a0fa3af3fcc987a610f8cea8ae2874a76e68",
+    "status": "PASS",
+    "findings": [],
+    "lines": 130
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/app/app.tsx",
+    "bytes": 6443,
+    "sha256": "dec49ad2e651da5689453ebce87ad237f9be04ff334f289ffd557243df77e0aa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 129
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/app/error-boundary.tsx",
+    "bytes": 1366,
+    "sha256": "ecc4ef6ef3de4d581cc00f9b9b9ae2dacc3a28350da761bfd47419ff220876db",
+    "status": "PASS",
+    "findings": [],
+    "lines": 47
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/app/layout.tsx",
+    "bytes": 7903,
+    "sha256": "0a9369ac3884335eddd775e2479ec50a8467a3ac66ef02fd0cc61b5e2ea85c3c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 199
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/auth/auth-and-oidc.test.tsx",
+    "bytes": 3273,
+    "sha256": "06e2ff74559acf05f3028305e75576b0ccacb7ecf58fd2c2e2d4527e4d8cb9a3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 93
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/auth/auth-context.tsx",
+    "bytes": 2253,
+    "sha256": "8209a942dc571a80392be74cfbecf4422d5f951e4247ef85ea04f89525b92ea7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 69
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/auth/oidc.ts",
+    "bytes": 1590,
+    "sha256": "10d2c9d67a42ad1d4cc7c8b567ddcac756689fc82d21676c2ed89f8167f06014",
+    "status": "PASS",
+    "findings": [],
+    "lines": 51
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/auth/query-client.test.ts",
+    "bytes": 376,
+    "sha256": "ee08c976b90f2e9f400217a1d00e8494fe481a8b14964e15a82d9d2c536d967d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/auth/query-client.ts",
+    "bytes": 265,
+    "sha256": "c0c17cbcc5b40efc613c3326b566ffbecc257d986f31e0717c87dbb4c1cafe68",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/config/runtime-config.test.ts",
+    "bytes": 2031,
+    "sha256": "072ac161125a794e7354a8878932940b0122591aef0f89c397e8bbc06d01b01e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 56
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/config/runtime-config.ts",
+    "bytes": 1254,
+    "sha256": "29eb1dd39e4d4a27464978678d81cf310f7c2abdfefc7047309819da0916dbb5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 36
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/auth/callback-page.test.tsx",
+    "bytes": 2654,
+    "sha256": "5c77af91238596568742159550d9eedde682fa73f414349c36058c0b9ab91c5c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 78
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/auth/callback-page.tsx",
+    "bytes": 2603,
+    "sha256": "c99e9a1bae309985938ccb15c7accdebc926b28ca50fd2d67159fef4ba4206de",
+    "status": "PASS",
+    "findings": [],
+    "lines": 70
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/auth/login-page.test.tsx",
+    "bytes": 1431,
+    "sha256": "e1cce3c06a6efb83c4cddc0940a62bd801a54b46cab20358bc7c55fa0ca87aaa",
+    "status": "PASS",
+    "findings": [],
+    "lines": 39
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/auth/login-page.tsx",
+    "bytes": 6123,
+    "sha256": "534ddd8a186fd2f762018796bffc535e0d9bb3a1ceef794bc2b1d6ad50e8b8cc",
+    "status": "PASS",
+    "findings": [],
+    "lines": 132
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/chat/assistant-page.test.tsx",
+    "bytes": 4660,
+    "sha256": "de3117b6f70bcc3772e40b9ae61f8aec11de511317cb4f41660ec4a62cff6bd0",
+    "status": "PASS",
+    "findings": [],
+    "lines": 127
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/chat/assistant-page.tsx",
+    "bytes": 13206,
+    "sha256": "b6ce10ea9ba999220db12d028a50403e4fdc5dcb6bf10bf46ea8f64b3692ae0c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 365
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/conversations/conversation-detail-page.tsx",
+    "bytes": 12590,
+    "sha256": "0ba57dc84300750c9db99d774124ed9ec237c6cd5c9a8c9854515dbb799f7eb9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 327
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/conversations/conversations-page.tsx",
+    "bytes": 8463,
+    "sha256": "8334b3181e4b865f53fb6a1bd1245a36205bf55af0bb7b3ca7287d747af6757d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 228
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/conversations/conversations-pages.test.tsx",
+    "bytes": 6605,
+    "sha256": "0b94dd57775474cb6db70ba2217fbfd488d41d17e23f54e2058c564d2d3b2794",
+    "status": "PASS",
+    "findings": [],
+    "lines": 167
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/dashboard/dashboard-page.test.tsx",
+    "bytes": 1761,
+    "sha256": "2a25fc1ea57820c35e1da0112902455f0163284b3fcacbdbeacac4975af67498",
+    "status": "PASS",
+    "findings": [],
+    "lines": 57
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/dashboard/dashboard-page.tsx",
+    "bytes": 5591,
+    "sha256": "29f34c32e4a5b8681bd23828d4486617ae976a19fc1389363f1e287afe899449",
+    "status": "PASS",
+    "findings": [],
+    "lines": 120
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/documents/document-detail-page.tsx",
+    "bytes": 28084,
+    "sha256": "66dbdd526a2451d54f2fbb31e6f8ec88436399d8f9aa5c7e8ba6a16f69098c2d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 660
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/documents/document-page.tsx",
+    "bytes": 14903,
+    "sha256": "36f77316ea510003e2afbf348c1ed5e9509e45ee82e5bcaeac028f1d2542acbc",
+    "status": "PASS",
+    "findings": [],
+    "lines": 366
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/documents/documents-pages.test.tsx",
+    "bytes": 9172,
+    "sha256": "68b7458ad45158a38fac102db3d5d18d756fd0cc4cf6895161b876ebd0e0b6b5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 239
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/evaluations/evaluations-page.test.tsx",
+    "bytes": 6306,
+    "sha256": "a3ea8f0d94e2e5be4aa91249c2e501794feeb512f0e60dae84de3b11043c9aa7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 172
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/evaluations/evaluations-page.tsx",
+    "bytes": 21675,
+    "sha256": "759dc97207b9555fe19a55de3b521b95be80706d1053e4baaab65d3d72cd148a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 557
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/knowledge/knowledge-page.test.tsx",
+    "bytes": 5694,
+    "sha256": "e7a90f57a47efaac80604188a6301b79d86ce61e4d0e2cf354fd91583b60b08d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 147
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/knowledge/knowledge-page.tsx",
+    "bytes": 13791,
+    "sha256": "b12378ec7e3e2ecb980d587ddaa201212484f40f8731821eacc0e32bd651d62c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 339
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/operations/operations-page.test.tsx",
+    "bytes": 5175,
+    "sha256": "ad7feb3bb0c14d782107654e34f69bcb277e8e515dc4e0ce905680ac5bc0ba39",
+    "status": "PASS",
+    "findings": [],
+    "lines": 140
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/operations/operations-page.tsx",
+    "bytes": 17021,
+    "sha256": "9f6330d011125e42453606c23ca681280a5a9c4136012be33651be81f2159146",
+    "status": "PASS",
+    "findings": [],
+    "lines": 426
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/security/security-page.test.tsx",
+    "bytes": 6063,
+    "sha256": "985069a5e248af555b0cbc8deab1583916f9f4023b0d6a0bab1217b54a46ece2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 165
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/features/security/security-page.tsx",
+    "bytes": 21574,
+    "sha256": "02e3f495bf6afca8a8e219d19e245f28b451077190928eb622ad4c0dc6b4d32c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 546
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/generated/openapi-types.ts",
+    "bytes": 265191,
+    "sha256": "9b9e39e2755d010e5324f6394d4f0bf4a6e03fd728c43e3575d293153d46d5f2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8130
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/generated/openapi.json",
+    "bytes": 613213,
+    "sha256": "836a25194aa957b59d3b1a0fd8e1acae19345fe6a2e08e809dfa672c1c47b59c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18985
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/generated/README.md",
+    "bytes": 391,
+    "sha256": "dd4de42f4e3faf86e4f8ac61b2a2df32ede36a16f5346aef5b1de1787c04da00",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/alert.tsx",
+    "bytes": 2640,
+    "sha256": "cd8d49d1de46285dbf53710b8de71ff2c87762d50b68909dcf0d8a288531b609",
+    "status": "PASS",
+    "findings": [],
+    "lines": 83
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/button.tsx",
+    "bytes": 1435,
+    "sha256": "b15f6fc70d5cb2ba86bcc04f8aeb572bb1b1a2cc162c50c47d4f7541d6d4627c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 27
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/confirm-dialog.test.tsx",
+    "bytes": 1740,
+    "sha256": "79755870641287426b15ca5ad23b3f4f92c6380d52686f392051648bf27d6f86",
+    "status": "PASS",
+    "findings": [],
+    "lines": 59
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/confirm-dialog.tsx",
+    "bytes": 3070,
+    "sha256": "ce7ab049153584fd3123048e5faae37fed83697c2ab60157d3f6424ac6d2f2ea",
+    "status": "PASS",
+    "findings": [],
+    "lines": 91
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/feedback.test.tsx",
+    "bytes": 1821,
+    "sha256": "e9656a78cbd3c14a738c45dda9da93e3ac3a121cd01bb2305e3b65a1cf05168c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 41
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/feedback.tsx",
+    "bytes": 2350,
+    "sha256": "f5a273cf7cb6614355a7ac94fd3600923ab0c5d230438287505d9ab62e42b80b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 71
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/field.test.tsx",
+    "bytes": 1959,
+    "sha256": "84dcba34cdfe80f90f98f3a31172b008af7fb6c001136e1d4d131f051d6ab990",
+    "status": "PASS",
+    "findings": [],
+    "lines": 48
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/field.tsx",
+    "bytes": 3295,
+    "sha256": "c2ac8acc28eace544bbdaf870cb656bd8d25d57077a61e53c7a2b4cc3f42764c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 111
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/modal.tsx",
+    "bytes": 3383,
+    "sha256": "7abfa82647b301845a36748cbc59d107d3b63592e70e0469675210df019093f0",
+    "status": "PASS",
+    "findings": [],
+    "lines": 96
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/panel.tsx",
+    "bytes": 409,
+    "sha256": "1223b569b77823b425d320c343eb8c61be8d0fd6eaab134e38c87f51e752f59d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/senior-ui-primitives.test.tsx",
+    "bytes": 5935,
+    "sha256": "8f6bdd8e67f949c07affcc9ed44f30fd27cb054e8d3bdf1b62f578f7ed3e4681",
+    "status": "PASS",
+    "findings": [],
+    "lines": 170
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/skeleton.tsx",
+    "bytes": 5558,
+    "sha256": "0c15e6a5231e982c5ca5a1d67aa6227d97e7a03ff71887c5e80cd4fc1d48b667",
+    "status": "PASS",
+    "findings": [],
+    "lines": 160
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/theme-provider.tsx",
+    "bytes": 5803,
+    "sha256": "3d7a5844ebe37123f404a40d3f2f6ef78eec590a17b21c6a039a0f1cab0d9e04",
+    "status": "PASS",
+    "findings": [],
+    "lines": 174
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/libs/ui/toast.tsx",
+    "bytes": 4368,
+    "sha256": "7fc3253c71015d9391737cbdd55b4b775c5a81df8f3a7738f270fc7f70c02eb1",
+    "status": "PASS",
+    "findings": [],
+    "lines": 133
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/main.tsx",
+    "bytes": 474,
+    "sha256": "de91fea08ea0b12f897f1f385c50dcf454de255bc92a00d25835133f7339485b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/services/api.test.ts",
+    "bytes": 8374,
+    "sha256": "014573481b44417c812184fbaa0c6fc3344b30c0cdd087053ec3fd47eaa92e26",
+    "status": "PASS",
+    "findings": [],
+    "lines": 242
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/services/api.ts",
+    "bytes": 8084,
+    "sha256": "f8122013d20ef8f6b1403256556a89fa1c1557131969ff12e3ad37d1340d9b25",
+    "status": "PASS",
+    "findings": [],
+    "lines": 237
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/services/sse.test.ts",
+    "bytes": 1203,
+    "sha256": "e480ec51c9ac8a02ee57a898bd1b57e7ddad37d255395f2437f7e36d884961d7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 30
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/services/sse.ts",
+    "bytes": 1152,
+    "sha256": "7e12a523423e2da29b20ea7076a1c87d821785ff9b992fd14e9ba4576bc3aac6",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/styles/app.css",
+    "bytes": 2523,
+    "sha256": "4c0a60de21fe01cad50cd9d0d75cfc100df65aeaa35fcd4cfdbf0d71013acc69",
+    "status": "PASS",
+    "findings": [],
+    "lines": 118
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/test/setup.ts",
+    "bytes": 165,
+    "sha256": "e696e3641a7e5ccf290230e22fd4e174a0e7705877c3bfafc22000c2092dea02",
+    "status": "PASS",
+    "findings": [],
+    "lines": 7
+  },
+  {
+    "path": "apps/enterprise-rag-web/src/vite-env.d.ts",
+    "bytes": 38,
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1
+  },
+  {
+    "path": "apps/enterprise-rag-web/tools/check-generated-contract.cjs",
+    "bytes": 1743,
+    "sha256": "4481aee2d26e8a573b875843d76af7e20363df190c6ddb43ceebc349753e5075",
+    "status": "PASS",
+    "findings": [],
+    "lines": 42
+  },
+  {
+    "path": "apps/enterprise-rag-web/tools/sync-openapi-contract.cjs",
+    "bytes": 671,
+    "sha256": "5e541077e2be8a757356ffa32d7625588ac3ec041c2113e201c1a86431b48852",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": "apps/enterprise-rag-web/tsconfig.json",
+    "bytes": 681,
+    "sha256": "582f585171541513737b185db61663c49b92f926a3ea5e7919fc4e3672812ed2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 34
+  },
+  {
+    "path": "apps/enterprise-rag-web/tsconfig.tsbuildinfo",
+    "bytes": 2252,
+    "sha256": "ab401d6009eec0472b84f883cd84d22d87c2e9bbdf4d9e0167a87a4e296e4902",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "apps/enterprise-rag-web/vite.config.ts",
+    "bytes": 432,
+    "sha256": "c1ec5f2291e865bed8e687a8be414d1fe458f125bdbdc9bc5b6de586ada0d062",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "apps/enterprise-rag-web/vitest.config.ts",
+    "bytes": 642,
+    "sha256": "ab12887dca6a128f30a894df79af5a6c8f62a23e547a3ed0b2e11fababb3f146",
+    "status": "PASS",
+    "findings": [],
+    "lines": 28
+  },
+  {
+    "path": "AUDIT_REPORT.md",
+    "bytes": 9376,
+    "sha256": "177e69b144031ed57856a49f2c8e30247e1eab1c41b0e87a41f85453c1f97c39",
+    "status": "PASS",
+    "findings": [],
+    "lines": 80
+  },
+  {
+    "path": "checks/architecture-regression-results.json",
+    "bytes": 98,
+    "sha256": "0b5fae05f44fbeeca52bf7cb915e70463f6a863a9a776177d510049b7d559b47",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "checks/architecture-regression.cjs",
+    "bytes": 3036,
+    "sha256": "f460f160e3ec400f629d4659629691dfe074508836c97f8d5ce3f14719f8f943",
+    "status": "PASS",
+    "findings": [],
+    "lines": 85
+  },
+  {
+    "path": "checks/dependency-contract-audit.py",
+    "bytes": 1376,
+    "sha256": "aac76508c301a9ea179231dcbbf812ea0538614685a35dd8f3cbc233599ef312",
+    "status": "PASS",
+    "findings": [],
+    "lines": 41
+  },
+  {
+    "path": "checks/per-file-audit.py",
+    "bytes": 1832,
+    "sha256": "a5b2698f49508a10b565026d000fa746982426ab0dc35463941a7fb2b62a9f18",
+    "status": "PASS",
+    "findings": [],
+    "lines": 51
+  },
+  {
+    "path": "checks/runtime-pure-tests.cjs",
+    "bytes": 1805,
+    "sha256": "27aeab21c6e96db09e075dd12b13de67dd03abcb312ca4d5c34872ea55a6678c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 48
+  },
+  {
+    "path": "checks/source-audit-results.json",
+    "bytes": 94,
+    "sha256": "6f0cb998ed24a9fa83f82a5d262bdb09fe3a26bef5eef2da705ffe2b4cb6cd06",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "checks/source-audit.py",
+    "bytes": 2104,
+    "sha256": "b1a4a4d4c9fb51bf23fdcb53da8124cd9a619015279a6c326959a500ed7107ac",
+    "status": "PASS",
+    "findings": [],
+    "lines": 62
+  },
+  {
+    "path": "checks/typescript-syntax-results.json",
+    "bytes": 103,
+    "sha256": "503ce5cc879e5700531ccaf72affe80025e9ddcff98e86f0b0013486bfa0d4bb",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "checks/typescript-syntax.cjs",
+    "bytes": 2180,
+    "sha256": "5e531e854cc356c3cce781425b8c21f1f652a81bad2f36efed32e4678eb7703b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 78
+  },
+  {
+    "path": "checks/v3-invariants.py",
+    "bytes": 1327,
+    "sha256": "49fc4a3db3ac100e90cc14f3d56b5c2cb0cb1b571aa92a66558fe91835601a54",
+    "status": "PASS",
+    "findings": [],
+    "lines": 39
+  },
+  {
+    "path": "checks/v3-runtime-pure.cjs",
+    "bytes": 1710,
+    "sha256": "d2f9f92ebb7bb62fe2f9c1b7bab2e345304f90dc47d55e0b68459c0f42df950b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 47
+  },
+  {
+    "path": "checks/v4-citation-tests.cjs",
+    "bytes": 1199,
+    "sha256": "d38103d3652ca9826d9fa7dc14b840fd44e2f1ea642fb821b42c743af04324cc",
+    "status": "PASS",
+    "findings": [],
+    "lines": 30
+  },
+  {
+    "path": "checks/v5-hardening-tests.py",
+    "bytes": 1856,
+    "sha256": "947aff98d685b86064b747273e25c5792624c3b7917b6d35799fcba47ee8dd37",
+    "status": "PASS",
+    "findings": [],
+    "lines": 45
+  },
+  {
+    "path": "checks/v6-release-gates.py",
+    "bytes": 1676,
+    "sha256": "17c53c36156fdf01846068ca396163b0dd974864f8d364a02b7317a92ae1c05c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 45
+  },
+  {
+    "path": "checks/verify-delivery.py",
+    "bytes": 2727,
+    "sha256": "dd03c48a5d67408aa1f16be7f004b710c59a988149bb5e98821fb3d4973c1fb4",
+    "status": "PASS",
+    "findings": [],
+    "lines": 68
+  },
+  {
+    "path": "CHECKSUMS.sha256",
+    "bytes": 41737,
+    "sha256": "56a361ed8fb9222194fff77843c49572d7ac97940dd909b2b98ea13376e4df0e",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "docs/API.md",
+    "bytes": 5402,
+    "sha256": "765b1ef7e6006d123ca86520b148194af13faf7de7821c1bec75abbf4b874954",
+    "status": "PASS",
+    "findings": [],
+    "lines": 74
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "bytes": 1841,
+    "sha256": "aba9a42429d1a487f2545b3bccbfaef165a85682581d53bb7d01a93dfbff7362",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": "docs/ARCHITECTURE_V2.md",
+    "bytes": 2275,
+    "sha256": "739332cdd4c5ae9ca3d36247c1480e8d61044f9c646ce8c83f8ba67a3d7cfc54",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "docs/archived-evidence-v2/api-tsc-output.log",
+    "bytes": 17385,
+    "sha256": "ce14fc6cb21b7003b0511bbef2165cd95c8d04e0fe5eed890a3f9c5c45d63358",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "docs/archived-evidence-v2/architecture-regression-results.json",
+    "bytes": 1181,
+    "sha256": "56e04094ef2135887b8b0487dcb3d847c92f2782e9701a2893b831d18658e497",
+    "status": "PASS",
+    "findings": [],
+    "lines": 47
+  },
+  {
+    "path": "docs/archived-evidence-v2/json-errors.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "PASS",
+    "findings": [
+      "empty file"
+    ]
+  },
+  {
+    "path": "docs/archived-evidence-v2/npm-registry-output.log",
+    "bytes": 302,
+    "sha256": "6ba3bec57a4a4314cd1b47187ad5281b9934c5e85e72623ba1277e5d3e3f6459",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "docs/archived-evidence-v2/read-log.json",
+    "bytes": 9363,
+    "sha256": "6b0be79a718c753d16ddad40e398d34edecf5d55902a677e4e096b3874b4563d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 248
+  },
+  {
+    "path": "docs/archived-evidence-v2/runtime-pure-results.log",
+    "bytes": 152,
+    "sha256": "2549e477fd5fd8c4e76cea4891d1af889ca15a0ed9347d4b72493ac4fd7c3db5",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "docs/archived-evidence-v2/shell-errors.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "PASS",
+    "findings": [
+      "empty file"
+    ]
+  },
+  {
+    "path": "docs/archived-evidence-v2/source-audit-results.json",
+    "bytes": 2106,
+    "sha256": "f43daefc5fbe19a2c8297b26cd3d817102d47b4f72f18e9e59162a58f0787530",
+    "status": "PASS",
+    "findings": [],
+    "lines": 94
+  },
+  {
+    "path": "docs/archived-evidence-v2/typescript-syntax-results.json",
+    "bytes": 119,
+    "sha256": "500bc3f5bffd0c5d8095d37d09f64475efff6ac30b35a23fc705a167685fa838",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1
+  },
+  {
+    "path": "docs/archived-evidence-v2/verification-report.json",
+    "bytes": 2048,
+    "sha256": "ff5cda1127ece900fb870a807bf0f601b3e5e7479f3e27e027d64315e145d64a",
+    "status": "PASS",
+    "findings": [],
+    "lines": 81
+  },
+  {
+    "path": "docs/archived-evidence-v2/web-tsc-output.log",
+    "bytes": 179,
+    "sha256": "3b32d54f4d9599847feaf337ca33f29c4bdb31243163f2a82ddd08dc4cfeebc9",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "docs/AUDIT_REPORT_PREVIOUS_2026-11-07.md",
+    "bytes": 4994,
+    "sha256": "a6a36f5d7341abd5cdd1892fbbb2945e2db1c51a6aa2b329c621095eff7911db",
+    "status": "PASS",
+    "findings": [],
+    "lines": 51
+  },
+  {
+    "path": "docs/AUDIT_REPORT_v2_ARCHIVED.md",
+    "bytes": 6436,
+    "sha256": "4e210ea9c62f578bdbba584ae00b2a6e42d4d52f827504b6a7ce0c3bc868b767",
+    "status": "PASS",
+    "findings": [],
+    "lines": 65
+  },
+  {
+    "path": "docs/CI_CD_RELEASE.md",
+    "bytes": 1841,
+    "sha256": "7c474b9194d3683d056b99ec1585957cb2fa7a73c50e91c18c3bb5936c5578db",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "docs/DECISIONS.md",
+    "bytes": 831,
+    "sha256": "aa9611d19480394de1a84b130fe0989edfad45b7c512790acbd357df2c316b4d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8
+  },
+  {
+    "path": "docs/IMPLEMENTATION_STATUS.md",
+    "bytes": 5515,
+    "sha256": "37e8bc48b284a3b4f674589cdc719848262ab97eef1664c9694074b190a20414",
+    "status": "PASS",
+    "findings": [],
+    "lines": 42
+  },
+  {
+    "path": "docs/INSTALL_TEST.md",
+    "bytes": 2688,
+    "sha256": "43af36ace8e34d1f0bd2fdf6b9fab0e1d4418903d201768fcbc0cd303ea89360",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "docs/LOCAL_AUTH.md",
+    "bytes": 2070,
+    "sha256": "d25e7ca0b6400c4f20f6cf4eb1e11ead27a2fe17c04ab70b666bb0ddfb189a26",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "docs/OBSERVABILITY_OPERATIONS.md",
+    "bytes": 1519,
+    "sha256": "04d473e1e8d14f14689f1b4236125cab280e29fb931871a05bcc4457f418df3f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "docs/RELEASE_AUDIT_MATRIX.md",
+    "bytes": 6591,
+    "sha256": "d8030e36e409be3eccb95348abfd2df3fb959601dc6457fdc7c5f0741b9a5af9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 32
+  },
+  {
+    "path": "docs/ROADMAP.md",
+    "bytes": 955,
+    "sha256": "9a3e3d8a9d715e89eda69a7caeec0d9f9d3a7683a57d79e75c4bec1379109f75",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "docs/SECURITY.md",
+    "bytes": 2457,
+    "sha256": "e05cf478344e36e805e26ad00c5d8875dfcc7e1bf3cda3de3d5738fe30762b6b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "docs/SENIOR_COMPLETENESS.md",
+    "bytes": 886,
+    "sha256": "d45825f8d5b3998c3767e08632d803eb09c224dff4d98a912295f86d182f09c2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "docs/SOURCES_READ.md",
+    "bytes": 901,
+    "sha256": "ff4cff481bdc1fa163c901c533274fa5577b3a21ad615745f5ef8f5748d3dc7f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8
+  },
+  {
+    "path": "docs/USER_FLOWS.md",
+    "bytes": 1544,
+    "sha256": "cb5fb652407c5211c08b9252e2e94a432bf1f4f80028ed4a25fa82d868fafb59",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "docs/UX_DESIGN_SYSTEM.md",
+    "bytes": 3006,
+    "sha256": "8b444399180303c0987d012d3d13763460b9e0939564e88180354bfdf215dd3d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 45
+  },
+  {
+    "path": "docs/V6_IMPLEMENTATION_NOTES.md",
+    "bytes": 1625,
+    "sha256": "e366302b16350cd9c8933995d6fa06e8b474622984f3e858453a7e8210f499cd",
+    "status": "PASS",
+    "findings": [],
+    "lines": 21
+  },
+  {
+    "path": "enterprise-rag-deploy/.env.example",
+    "bytes": 3034,
+    "sha256": "16e6efb24b3bc67cfbd2aa999ee6689c168e30a427ed1a599370a57f9e023f06",
+    "status": "PASS",
+    "findings": [],
+    "lines": 76
+  },
+  {
+    "path": "enterprise-rag-deploy/.github/workflows/ci.yaml",
+    "bytes": 1581,
+    "sha256": "c9b25f53b530d1d02a0f89195e9461c694be677215e5382794e8ebb19df6dba3",
+    "status": "PASS",
+    "findings": [],
+    "lines": 44
+  },
+  {
+    "path": "enterprise-rag-deploy/.gitignore",
+    "bytes": 17,
+    "sha256": "2506ddaf615b526e799e1131ae2da803fc029e0eae27fc386b40c29174c5926d",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "enterprise-rag-deploy/caddy/Caddyfile",
+    "bytes": 853,
+    "sha256": "a2814b0d05363e5929851763fefd5b4c83e7066ea23cdfe275ab38d71cb6e072",
+    "status": "PASS",
+    "findings": [],
+    "lines": 26
+  },
+  {
+    "path": "enterprise-rag-deploy/caddy/Caddyfile.prod",
+    "bytes": 1325,
+    "sha256": "bfbf8d45c4bf0829b611f6f0358dc16ad07702e9f60a8617b98f1d0d64d0ed74",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "enterprise-rag-deploy/compose/compose.yaml",
+    "bytes": 17837,
+    "sha256": "adcd18f677b7e862447a3be1007f2f49e371374c95137a6b4434dfaf67ba5b59",
+    "status": "PASS",
+    "findings": [],
+    "lines": 514
+  },
+  {
+    "path": "enterprise-rag-deploy/keycloak/realm-enterprise.json",
+    "bytes": 1599,
+    "sha256": "899f86e91aef436861acff378dff196b094b6bafa5987e017b7f433c7e852e39",
+    "status": "PASS",
+    "findings": [],
+    "lines": 57
+  },
+  {
+    "path": "enterprise-rag-deploy/keycloak/realm-enterprise.production.example.json",
+    "bytes": 1686,
+    "sha256": "1b1d7c9fc6c4f0cff42ddafca587fea488ab50677041ea507dc829b7e49e668b",
+    "status": "PASS",
+    "findings": [],
+    "lines": 57
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/alertmanager.yml",
+    "bytes": 210,
+    "sha256": "7405af86c71ecaa3b550306fba6a6036f70ac2402ef97a00f79238f3f60c4945",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/alloy.river",
+    "bytes": 483,
+    "sha256": "99ac47bd6974d4389965ddccb691e25fc2655a59e071c335bbd3d6e3c0a55d27",
+    "status": "PASS",
+    "findings": [],
+    "lines": 28
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/grafana/provisioning/dashboards/json/rag-api-slo.json",
+    "bytes": 3202,
+    "sha256": "32dc46fd13793cffc7607b63d0b3d733ffdeda46be065b4d6843f71055809d83",
+    "status": "PASS",
+    "findings": [],
+    "lines": 100
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/grafana/provisioning/dashboards/provider.yml",
+    "bytes": 201,
+    "sha256": "0cb65d8ff1aa7e5414c65983cb76f07fc2f9805610e4efd3960c33fa3d23977e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/grafana/provisioning/datasources/default.yml",
+    "bytes": 395,
+    "sha256": "2dbeac3583f257adbac3140490a94e372832ec84e08fd1d3f88b03408b1ac054",
+    "status": "PASS",
+    "findings": [],
+    "lines": 22
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/loki.yaml",
+    "bytes": 553,
+    "sha256": "3ce42e605181513868061e4c640280067bb2353baa17d1a92de46bf040adde0e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 31
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/otel-collector.yaml",
+    "bytes": 425,
+    "sha256": "0f71193997dfbcaf37173d466aa956be5500c951a17b3f0adeddc6ce37e5c197",
+    "status": "PASS",
+    "findings": [],
+    "lines": 25
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/prometheus.yml",
+    "bytes": 313,
+    "sha256": "5adf4008b4a015bd86f73781f73db5edda0a5006d9b03301b1bd61d0f9830c1f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 17
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/rag-alerts.yml",
+    "bytes": 1486,
+    "sha256": "e7427fef160757cd61068d3cb386c1452710cd5392690b45be6fb77d431e0cfd",
+    "status": "PASS",
+    "findings": [],
+    "lines": 44
+  },
+  {
+    "path": "enterprise-rag-deploy/observability/tempo.yaml",
+    "bytes": 297,
+    "sha256": "f31e98c09cb06de8beaec27bc09db71a05a577600a4bebec4d4afd513791fcca",
+    "status": "PASS",
+    "findings": [],
+    "lines": 18
+  },
+  {
+    "path": "enterprise-rag-deploy/postgres/init/00_roles.sh",
+    "bytes": 1199,
+    "sha256": "b4bc3b191a37b1b0f2af803ec1aa4304ddc4e0430a9424bd743ce294034615a9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 15
+  },
+  {
+    "path": "enterprise-rag-deploy/README.md",
+    "bytes": 1740,
+    "sha256": "3207ad5cf215e563573c8a84419756517dc82deea83126294081aa4d462fc3a5",
+    "status": "PASS",
+    "findings": [],
+    "lines": 21
+  },
+  {
+    "path": "enterprise-rag-deploy/scripts/build-sign-release.sh",
+    "bytes": 2626,
+    "sha256": "ae574f686d29dca32bc15ed14fee2481512cba3936a292c18e313e2e5d875c04",
+    "status": "PASS",
+    "findings": [],
+    "lines": 74
+  },
+  {
+    "path": "enterprise-rag-deploy/scripts/release-verify.sh",
+    "bytes": 4247,
+    "sha256": "abb9ceb44784e164b5f7afdacda85b3827607d68b93efa746ddc90acf058c353",
+    "status": "PASS",
+    "findings": [],
+    "lines": 94
+  },
+  {
+    "path": "enterprise-rag-deploy/scripts/rollout.sh",
+    "bytes": 2010,
+    "sha256": "8a9aafb6770bd68697111647785765db40080fcd4e2a8c938498f5f45b87378f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 67
+  },
+  {
+    "path": "enterprise-rag-deploy/scripts/start-local.sh",
+    "bytes": 1426,
+    "sha256": "c66239ef1ca52b13aa8431b88f81608cc3b4bd34842d3b93ca82417669fa5c77",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "enterprise-rag-deploy/versions.yaml",
+    "bytes": 3090,
+    "sha256": "cf65a8b91f8c7764e4ec7878a39ddb267cbd25f376de4b6674c720db37cc2850",
+    "status": "PASS",
+    "findings": [],
+    "lines": 80
+  },
+  {
+    "path": "evaluation/datasets/groundedness-synthetic.jsonl",
+    "bytes": 741,
+    "sha256": "4cfb28171fe73c2beb9071d810fe07e8d6dde50a6b8d509049bed912be1126ef",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "evaluation/datasets/synthetic-sample.jsonl",
+    "bytes": 502,
+    "sha256": "f892e68d1400ca0dad63bc9780c81bb81adc14888578a55946755fd34e2fd1e5",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "evaluation/README.md",
+    "bytes": 801,
+    "sha256": "5745fecf7abc95a0269b8a227cbd32f35f4ef98067410802aae8c776f08538da",
+    "status": "PASS",
+    "findings": [],
+    "lines": 16
+  },
+  {
+    "path": "evaluation/runners/__pycache__/groundedness.cpython-314.pyc",
+    "bytes": 5314,
+    "sha256": "61739632ac8feacf8ae76679b8f955047c5b8a91885e07e94b1c94a2969ebf85",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "evaluation/runners/groundedness.py",
+    "bytes": 3239,
+    "sha256": "f666202c3677d8db1323a6940ffd8104d649a66d8c1d6f213bf313ae5567fa99",
+    "status": "PASS",
+    "findings": [],
+    "lines": 96
+  },
+  {
+    "path": "evaluation/tests/__pycache__/test_groundedness.cpython-314.pyc",
+    "bytes": 3435,
+    "sha256": "7611e16a8f47c38ba28385a581add2508d2244f93a5086fd93922df1578f796d",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "evaluation/tests/test_groundedness.py",
+    "bytes": 2321,
+    "sha256": "05d5ebd60910865b5d9584abc8aea8aa8d759adbe472fa840a3c41a30d09a53e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 65
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 64810,
+    "sha256": "9bbe66450b041b6c37d1a171e046621d16e9fdc9ebaf4720b62c981d7570047f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1732
+  },
+  {
+    "path": "MANIFEST.md",
+    "bytes": 1310,
+    "sha256": "647f26e2ae6a09a612435dc293ccbaa20b96b7de8562a00e5412d3528a92bb66",
+    "status": "PASS",
+    "findings": [],
+    "lines": 15
+  },
+  {
+    "path": "platform-ops/ansible/playbooks/site.yml",
+    "bytes": 365,
+    "sha256": "fab8c049846daebae2e00b62e933cde54b9f15aa1ce988b579ed960bd6a18cab",
+    "status": "PASS",
+    "findings": [],
+    "lines": 10
+  },
+  {
+    "path": "platform-ops/ansible/roles/edge_firewall/meta/argument_specs.yml",
+    "bytes": 658,
+    "sha256": "2adc985d515366cbc28418b29f6bfb77e2244d0230da5dde9befc2591be5eb12",
+    "status": "PASS",
+    "findings": [],
+    "lines": 20
+  },
+  {
+    "path": "platform-ops/ansible/roles/edge_firewall/tasks/main.yml",
+    "bytes": 451,
+    "sha256": "3430458c42dac72f711f7621d512881753b20d6b009116fd923e481aa1d9174f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 19
+  },
+  {
+    "path": "platform-ops/ansible/roles/edge_firewall/templates/nftables.conf.j2",
+    "bytes": 819,
+    "sha256": "8617f76fb6d3d9b686abd14c827d4b5d3dc9dfd0e72fe8233c5b88e4471fd349",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "platform-ops/ansible/roles/pgbackrest_pitr/meta/argument_specs.yml",
+    "bytes": 949,
+    "sha256": "867c0630be8fddba7eb71cf65c9b48fea75bfb61f1b16b1a64c047a1692dc982",
+    "status": "PASS",
+    "findings": [],
+    "lines": 28
+  },
+  {
+    "path": "platform-ops/ansible/roles/pgbackrest_pitr/tasks/main.yml",
+    "bytes": 569,
+    "sha256": "d9f4863244e5086a743855a97b76eb2e7f068c86448574ad0ea1443764e7aa85",
+    "status": "PASS",
+    "findings": [],
+    "lines": 22
+  },
+  {
+    "path": "platform-ops/ansible/roles/pgbackrest_pitr/templates/pgbackrest.conf.j2",
+    "bytes": 354,
+    "sha256": "8f5c770095968adb63eb59d4f6302f482999cc7b6e14ea24cefbaf652b2525b2",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "platform-ops/ansible/roles/podman_rootless_host/meta/argument_specs.yml",
+    "bytes": 690,
+    "sha256": "3870872231623bd4855694849289f94a532a736a918a0f6d485c2722e5886954",
+    "status": "PASS",
+    "findings": [],
+    "lines": 20
+  },
+  {
+    "path": "platform-ops/ansible/roles/podman_rootless_host/tasks/main.yml",
+    "bytes": 1193,
+    "sha256": "28c88d70a5cd5a065f165abb1c36878f5f899bf3d29bbb49f4331171e1fdfe77",
+    "status": "PASS",
+    "findings": [],
+    "lines": 40
+  },
+  {
+    "path": "platform-ops/README.md",
+    "bytes": 850,
+    "sha256": "ae8ea589d4b1be1231386bec0d03403eaf8b24993f7c9fd2a42203f15323bb99",
+    "status": "PASS",
+    "findings": [],
+    "lines": 15
+  },
+  {
+    "path": "platform-ops/runbooks/auth-compromise.md",
+    "bytes": 526,
+    "sha256": "5b1ffbd2754e860bd9b15f2dc436f0c27f75f12c26c6a0517abbb087e0b38859",
+    "status": "PASS",
+    "findings": [],
+    "lines": 7
+  },
+  {
+    "path": "platform-ops/runbooks/backup-policies.md",
+    "bytes": 825,
+    "sha256": "8171fba22be16488d1512c0efd293ce223a2aa06909b6ebac3a0d13d5ff68f87",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "platform-ops/runbooks/document-leak.md",
+    "bytes": 1061,
+    "sha256": "45ae3a46437ae80853ea9b41c97e339843048e98788f986e7aaa5ce21aebf92e",
+    "status": "PASS",
+    "findings": [],
+    "lines": 14
+  },
+  {
+    "path": "platform-ops/runbooks/ingestion-backlog.md",
+    "bytes": 679,
+    "sha256": "a92857ee5760fa58133a30d160baec639c0cbf27f605dfe4be4b18c58971e27c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "platform-ops/runbooks/postgres-restore.md",
+    "bytes": 397,
+    "sha256": "88c71b2f887050908ad87a939969e465b2a11f4399ff86418e18bc9eb598493c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "platform-ops/runbooks/provider-outage.md",
+    "bytes": 513,
+    "sha256": "049e76ec0462e73fe9e217daecbcca76537194d00aa978e028afd1f36d526dc7",
+    "status": "PASS",
+    "findings": [],
+    "lines": 7
+  },
+  {
+    "path": "platform-ops/scripts/backup-encrypted.sh",
+    "bytes": 2268,
+    "sha256": "7d6a200cd6e91bd686d5a33d6f6da072855ffac8325f7023b8f72f402c07d738",
+    "status": "PASS",
+    "findings": [],
+    "lines": 59
+  },
+  {
+    "path": "platform-ops/scripts/pitr-pgbackrest.sh",
+    "bytes": 1179,
+    "sha256": "bf60318ea8482bc40860a4318bac21c367246539c51d3805451d519869f4b03c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 38
+  },
+  {
+    "path": "platform-ops/scripts/restore-drill.sh",
+    "bytes": 2579,
+    "sha256": "388efe376e15db1ef245459f4e4ca41bb3e71e3b44af446ab2cb8ef55a2b7e56",
+    "status": "PASS",
+    "findings": [],
+    "lines": 69
+  },
+  {
+    "path": "prod-local/bdd/document-revocation.feature",
+    "bytes": 1164,
+    "sha256": "93c983a94558118916f6f8b2eb1baa5584e20196aa4d8296e98c859d60b3c65f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 21
+  },
+  {
+    "path": "prod-local/bdd/ingestion-and-evaluation.feature",
+    "bytes": 606,
+    "sha256": "1dab8735df74016a773ba2129e145fa6c60abda6552706bd3ca70d78b6d2cd58",
+    "status": "PASS",
+    "findings": [],
+    "lines": 12
+  },
+  {
+    "path": "prod-local/bdd/tenant-isolation.feature",
+    "bytes": 612,
+    "sha256": "c5add503092a6bcee5474d39448b77ad376f23447f55b4343f6ed6a8f4a01d04",
+    "status": "PASS",
+    "findings": [],
+    "lines": 13
+  },
+  {
+    "path": "prod-local/README.md",
+    "bytes": 314,
+    "sha256": "273ae49a7ebe40e88ab34465db613c28edc1f3c64e903d178244ffbf6f2b7350",
+    "status": "PASS",
+    "findings": [],
+    "lines": 3
+  },
+  {
+    "path": "prod-local/scripts/bdd-runner.mjs",
+    "bytes": 3700,
+    "sha256": "a9a3eb0796811841b85f49848b4165ba81bed13c3b0c94be1e881cc4d074a379",
+    "status": "PASS",
+    "findings": [],
+    "lines": 119
+  },
+  {
+    "path": "prod-local/scripts/down.ps1",
+    "bytes": 1043,
+    "sha256": "2fa22448e9749fda602aeb658e118dc93fd7508cbc1e94700c7682bbec89abe5",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "prod-local/scripts/e2e-authorized-retrieval.mjs",
+    "bytes": 5919,
+    "sha256": "1b06748633073d7b66bd02cf82f6776484835fd3f9f7b0657d504c37dbff97c4",
+    "status": "PASS",
+    "findings": [],
+    "lines": 168
+  },
+  {
+    "path": "prod-local/scripts/preflight.mjs",
+    "bytes": 4261,
+    "sha256": "8b04c1103f880ca831d9986a6c24e0cf9aa29a68dbb60afd5b6495c5d77bb550",
+    "status": "PASS",
+    "findings": [],
+    "lines": 121
+  },
+  {
+    "path": "prod-local/scripts/prepare-lockfiles.sh",
+    "bytes": 553,
+    "sha256": "932274ff49dc3434641d66a3d5186209c07eb2468ef150e5db3aa4db721d80a8",
+    "status": "PASS",
+    "findings": [],
+    "lines": 9
+  },
+  {
+    "path": "prod-local/scripts/run-playwright-live.mjs",
+    "bytes": 14390,
+    "sha256": "991f2fac899b2fd2b7dd240adda79c683342e82d75918f4fe73c12d3e306f9f2",
+    "status": "PASS",
+    "findings": [],
+    "lines": 364
+  },
+  {
+    "path": "prod-local/scripts/smoke.sh",
+    "bytes": 274,
+    "sha256": "d403eb3af0530576b645a3defd176af96a65c3a24f212c320b4002f0485f2dda",
+    "status": "PASS",
+    "findings": [],
+    "lines": 6
+  },
+  {
+    "path": "prod-local/scripts/static-audit.py",
+    "bytes": 2889,
+    "sha256": "36129df591c26eb7f6e556d8955db95f92ad3b2379bd6b9e5995d8a419d690f9",
+    "status": "PASS",
+    "findings": [],
+    "lines": 54
+  },
+  {
+    "path": "prod-local/scripts/test-all-apis-live.mjs",
+    "bytes": 44893,
+    "sha256": "1bd7c1a7977f2a3c770002c711b79a69a9388c97ae31db464995a7c61481b23c",
+    "status": "PASS",
+    "findings": [],
+    "lines": 1274
+  },
+  {
+    "path": "prod-local/scripts/test-rls.sh",
+    "bytes": 714,
+    "sha256": "15010e3c38ba4f18f0da1ba50cc04d41afa702dd58a54ab8863d59ad200228e0",
+    "status": "PASS",
+    "findings": [],
+    "lines": 8
+  },
+  {
+    "path": "prod-local/scripts/test.ps1",
+    "bytes": 1673,
+    "sha256": "062d5a833c4ade9cae1f63907a5ed4b5743c3f02dc9b73d915a42103ab295941",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "prod-local/scripts/up.ps1",
+    "bytes": 2703,
+    "sha256": "bc3eeabb4c32c8cc48d03303bed0815b242841de38a5817a84ddff0031acfd22",
+    "status": "PASS",
+    "findings": []
+  },
+  {
+    "path": "README.md",
+    "bytes": 6552,
+    "sha256": "185184254a81b74600ac8363488a6fdadb35313312c3734db641e82f72df0095",
+    "status": "PASS",
+    "findings": [],
+    "lines": 87
+  },
+  {
+    "path": "scripts/generate_manifest.py",
+    "bytes": 2011,
+    "sha256": "9245d198e80775559af8a04dec41ff0d05bc68b721560d43d6517a1a3d7bfd4f",
+    "status": "PASS",
+    "findings": [],
+    "lines": 74
+  }
+]
