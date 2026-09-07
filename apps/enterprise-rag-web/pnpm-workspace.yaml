@@ -1,0 +1,13 @@
+packages: []
+
+engineStrict: true
+preferFrozenLockfile: true
+verifyStoreIntegrity: true
+strictStorePkgContentCheck: true
+strictDepBuilds: true
+dangerouslyAllowAllBuilds: false
+minimumReleaseAge: 1440
+
+allowBuilds:
+  "@biomejs/biome": true
+  esbuild: true

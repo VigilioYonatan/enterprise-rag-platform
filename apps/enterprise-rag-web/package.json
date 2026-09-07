@@ -1,0 +1,59 @@
+{
+  "name": "enterprise-rag-web",
+  "version": "0.1.0-beta",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.14.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint src e2e tools",
+    "format": "biome format --write src e2e tools",
+    "format:check": "biome format src e2e tools",
+    "check": "biome ci src e2e tools",
+    "test": "vitest run",
+    "test:unit": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "contracts:generate": "node tools/sync-openapi-contract.cjs && openapi-typescript src/generated/openapi.json -o src/generated/openapi-types.ts",
+    "contracts:check": "node tools/check-generated-contract.cjs"
+  },
+  "dependencies": {
+    "@enterprise-rag/contracts": "link:../enterprise-rag-impl/packages/contracts",
+    "@hookform/resolvers": "5.2.2",
+    "@preact/signals-react": "^3.12.0",
+    "@tanstack/react-query": "5.90.5",
+    "lucide-react": "0.546.0",
+    "oidc-client-ts": "3.3.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "7.65.0",
+    "react-router-dom": "7.9.4",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.3",
+    "@playwright/test": "1.64.1",
+    "@tailwindcss/vite": "4.3.5",
+    "@testing-library/dom": "10.4.1",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/node": "24.9.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "6.2.1",
+    "@vitest/coverage-v8": "4.1.10",
+    "jsdom": "26.1.0",
+    "openapi-typescript": "7.13.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "6.0.3",
+    "vite": "8.3.5",
+    "vitest": "4.1.10"
+  }
+}
