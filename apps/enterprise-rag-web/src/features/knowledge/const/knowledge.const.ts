@@ -1,0 +1,5 @@
+export const MIN_TENANT_NAME_LENGTH = 2;
+export const MAX_TENANT_NAME_LENGTH = 100;
+
+export const MIN_KNOWLEDGE_BASE_NAME_LENGTH = 2;
+export const MAX_KNOWLEDGE_BASE_NAME_LENGTH = 120;
