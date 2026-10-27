@@ -1,0 +1,9 @@
+# DevSecOps release path v6 — CI/CD on Docker Compose VPS
+
+1. Each repository runs pinned GitHub actions checkout/setup-node with no persisted checkout credentials, then `npm ci`, npm vulnerability audit (HIGH/CRITICAL), Biome lint, typecheck, test and build. These checks **are not green in this environment** because real lockfiles and modules cannot be downloaded.
+2. E2E/BDD, DB migrations, RLS and evaluation suites must be executed on ephemeral infrastructure after unit gates. A GitHub Actions workflow that orchestrates the full cross-repo ephemeral lab remains **P1 INCOMPLETE**.
+3. The deployment repo provides `scripts/build-sign-release.sh`: Buildx push with provenance and SBOM, Syft SPDX SBOM, Trivy fail-closed scan, Cosign keyless signing from short-lived GitHub Actions OIDC. It requires an authenticated registry and CI runtime; **NOT_RUN**.
+4. Production `.env` must supply **actual @sha256 digests** for product and vendor images. `scripts/release-verify.sh` validates product Cosign identity, verifies digest requirements and scans all required images via Trivy. **NOT_RUN**.
+5. The same `compose.yaml` drives local and production; mailpit is development-only, the production Keycloak realm and Caddyfile must be explicitly selected, migrated database prepared, health verified. The source ZIP is not evidence of rollout.
+6. Record signed image refs, artifact checksums, vulnerability exceptions (with expiry), DB migration output, smoke/e2e evidence, SLO traces, backup/restore drill, rollback proof, and approver identity as protected CI artifacts.
+7. Outstanding operational hardening: actual full image build, actionlint, cross-repo workflow wiring, SBOM/provenance verification, alert delivery, external PITR, threat-model signoff, disaster-recovery run, capacity benchmark and production live access validation.
