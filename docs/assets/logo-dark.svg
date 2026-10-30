@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ATLAS Logo">
+  <title>ATLAS Logo (Dark Mode Background)</title>
+  <rect x="32" y="32" width="448" height="448" rx="112" ry="112" fill="#FFFFFF" stroke="#27272A" stroke-width="4" />
+  <path fill="#09090B" d="M 106,358 L 174,358 L 254,222 L 260,222 L 338,358 L 404,358 L 404,352 L 272,130 L 266,126 L 246,126 L 106,352 Z" />
+  <path fill="#09090B" d="M 256,302 Q 254,338 214,342 Q 254,346 256,384 Q 258,346 298,342 Q 258,338 256,302 Z" />
+</svg>
