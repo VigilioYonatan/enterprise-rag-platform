@@ -7,7 +7,7 @@ Use the exact values below when configuring the **GitHub Repository "About" side
 ## 1. GitHub Repository "About" Description (<= 160 characters)
 
 ```text
-Self-hosted Enterprise RAG with Keycloak OIDC, PostgreSQL 17 FORCE RLS, pgvector, ClamAV quarantine & Dark/Light UI (v0.1.0-beta).
+Zero-Trust Enterprise RAG: query confidential company documents with verified citations, database-enforced multi-tenant isolation, and zero cloud data leaks.
 ```
 
 ### Suggested GitHub Topics

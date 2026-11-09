@@ -15,8 +15,8 @@
     <a href="CHANGELOG.md">Changelog (0.1.0-beta)</a>
   </p>
 
-  <p><b>Self-hosted Enterprise Retrieval-Augmented Generation (RAG) platform with Keycloak OIDC, PostgreSQL 17 FORCE RLS, pgvector hybrid search, and ClamAV quarantine scanning — on your own infrastructure.</b></p>
-  <p>Ask questions across private corporate documents with verified chunk citations, enforce multi-tenant isolation at the database layer with zero bypass risk, quarantine untrusted uploads automatically, and monitor model token costs.</p>
+  <p><b>Query confidential company documents with AI — without cloud data leaks, permission bypasses, or untrusted hallucinations.</b></p>
+  <p>ATLAS is a self-hosted, zero-trust Enterprise RAG platform that enforces multi-tenant document isolation at the database layer (PostgreSQL 17 FORCE RLS), verifies every answer with traceable chunk citations, quarantines file uploads with ClamAV, and monitors token costs on your own infrastructure.</p>
 
   <p>
     <img src="https://img.shields.io/badge/version-0.1.0--beta-0284C7?style=flat-square" alt="Version 0.1.0-beta" />
